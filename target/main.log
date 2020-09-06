@@ -1,36 +1,59 @@
-10:07:12.964 karate.env system property was:  
-10:07:13.383 request:
+12:01:21.135 karate.env system property was:  
+12:01:21.139 >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+12:01:21.478 request:
+1 > GET https://postman-echo.com/basic-auth
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic cG9zdG1hbjpwYXNzd29yZA==
+1 > Connection: Keep-Alive
+1 > Host: postman-echo.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
+
+12:01:22.845 response time in milliseconds: 1365.29
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 22
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 06 Sep 2020 02:01:22 GMT
+1 < ETag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+1 < Vary: Accept-Encoding
+1 < set-cookie: sails.sid=s%3AkOQ9s9l6F3jiALhuPdxauXr9sdObWgK-.5%2BIoFDKgCApG%2Bit9qBXD8cotLXqg%2F6C3r%2FTi3seb948; Path=/; HttpOnly
+{"authenticated":true}
+
+12:01:22.854 << lock released, cached callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+12:01:22.862 AuthenticationToken:  true 
+12:01:22.864 Token_Type:  dummy 
+12:01:22.879 request:
 1 > GET https://jsonplaceholder.typicode.com/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: jsonplaceholder.typicode.com
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
 
-10:07:14.530 response time in milliseconds: 1142.99
+12:01:23.966 response time in milliseconds: 1083.39
 1 < 200
 1 < Access-Control-Allow-Credentials: true
-1 < Age: 22517
+1 < Age: 4568
 1 < CF-Cache-Status: HIT
-1 < CF-RAY: 5cdbb57a8df2eae3-LAX
+1 < CF-RAY: 5ce49a1399d4147a-SEA
 1 < Cache-Control: max-age=43200
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 05 Sep 2020 00:07:14 GMT
+1 < Date: Sun, 06 Sep 2020 02:01:23 GMT
 1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Expires: -1
 1 < Pragma: no-cache
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d5e58b0db697049b82b069ffc9683c68a1599264434; expires=Mon, 05-Oct-20 00:07:14 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Set-Cookie: __cfduid=d4e407eecde278b0e4761b45b3be643071599357683; expires=Tue, 06-Oct-20 02:01:23 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 < Transfer-Encoding: chunked
 1 < Vary: Origin, Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Content-Type-Options: nosniff
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
-1 < X-Ratelimit-Remaining: 996
-1 < X-Ratelimit-Reset: 1598841974
-1 < cf-request-id: 04fd2fc0960000eae3bd91e200000001
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1598863154
+1 < cf-request-id: 0502bea03d0000147a7ba90200000001
 [
   {
     "id": 1,
@@ -264,24 +287,24 @@
   }
 ]
 
-10:07:14.616 request:
+12:01:24.011 request:
 2 > GET https://jsonplaceholder.typicode.com/users/1
 2 > Accept-Encoding: gzip,deflate
 2 > Connection: Keep-Alive
-2 > Cookie: __cfduid=d5e58b0db697049b82b069ffc9683c68a1599264434
+2 > Cookie: __cfduid=d4e407eecde278b0e4761b45b3be643071599357683
 2 > Host: jsonplaceholder.typicode.com
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
 
-10:07:15.214 response time in milliseconds: 596.61
+12:01:24.882 response time in milliseconds: 868.28
 2 < 200
 2 < Access-Control-Allow-Credentials: true
-2 < Age: 9910
+2 < Age: 4371
 2 < CF-Cache-Status: HIT
-2 < CF-RAY: 5cdbb57f19abd372-LAX
+2 < CF-RAY: 5ce49a194e3402d8-SEA
 2 < Cache-Control: max-age=43200
 2 < Connection: keep-alive
 2 < Content-Type: application/json; charset=utf-8
-2 < Date: Sat, 05 Sep 2020 00:07:15 GMT
+2 < Date: Sun, 06 Sep 2020 02:01:24 GMT
 2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
 2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 2 < Expires: -1
@@ -294,8 +317,8 @@
 2 < X-Powered-By: Express
 2 < X-Ratelimit-Limit: 1000
 2 < X-Ratelimit-Remaining: 999
-2 < X-Ratelimit-Reset: 1598841974
-2 < cf-request-id: 04fd2fc36f0000d37285809200000001
+2 < X-Ratelimit-Reset: 1598863214
+2 < cf-request-id: 0502bea3cf000002d8991c9200000001
 {
   "id": 1,
   "name": "Leanne Graham",
@@ -320,8 +343,10 @@
   }
 }
 
-10:07:15.239 karate.env system property was:  
-10:07:15.250 request:
+12:01:24.897 karate.env system property was:  
+12:01:24.899 AuthenticationToken:  true 
+12:01:24.900 Token_Type:  dummy 
+12:01:24.915 request:
 1 > POST https://jsonplaceholder.typicode.com/users
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -331,32 +356,32 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
 {"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
 
-10:07:15.949 response time in milliseconds: 697.48
+12:01:25.902 response time in milliseconds: 986.41
 1 < 201
 1 < Access-Control-Allow-Credentials: true
 1 < Access-Control-Expose-Headers: Location
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5cdbb5831c75e4dd-LAX
+1 < CF-RAY: 5ce49a1e58a4e466-SEA
 1 < Cache-Control: no-cache
 1 < Connection: keep-alive
 1 < Content-Length: 216
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 05 Sep 2020 00:07:15 GMT
+1 < Date: Sun, 06 Sep 2020 02:01:25 GMT
 1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Expires: -1
 1 < Location: http://jsonplaceholder.typicode.com/users/11
 1 < Pragma: no-cache
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d76e6167bc352cfdd00b7569800c33c201599264435; expires=Mon, 05-Oct-20 00:07:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Set-Cookie: __cfduid=daf54026c9b895e593155ee0ba1a7056c1599357685; expires=Tue, 06-Oct-20 02:01:25 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Content-Type-Options: nosniff
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
 1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1599264459
-1 < cf-request-id: 04fd2fc5ee0000e4dde4a45200000001
+1 < X-Ratelimit-Reset: 1599357702
+1 < cf-request-id: 0502bea6f70000e466843d6200000001
 {
   "name": "Test User",
   "username": "testuser",
@@ -370,4 +395,4 @@
   "id": 11
 }
 
-10:07:15.958 [print] created id is:  11
+12:01:25.916 [print] created id is:  11

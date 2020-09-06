@@ -1,0 +1,336 @@
+<testsuite failures="0" name="src/test/java/MicroServiceDefinitionLayer/Test/apiTest.feature" skipped="0" tests="6" time="6.947949">
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Positive: Fetch 10 pokemon characters and validate the schema" time="1.17237">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Positive: Fetch 10 pokemon characters and validate the response" time="0.836658">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.next == myUrl + '?offset=210&amp;limit=10' ................... passed
+* match response.previous == myUrl + '?offset=190&amp;limit=10' ............... passed
+* match response.results == ............................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Positive: Fetch 16 pokemon characters and validate the response" time="0.817029">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.next == myUrl + '?offset=210&amp;limit=10' ................... passed
+* match response.previous == myUrl + '?offset=190&amp;limit=10' ............... passed
+* match response.results == ............................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 16 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 16 ............................................... passed
+* def previousOffset = 200 - 16 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 16 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 16 . passed
+* match response.results == '#[16]' ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Positive: Fetch 20 pokemon characters and validate the response" time="0.996462">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.next == myUrl + '?offset=210&amp;limit=10' ................... passed
+* match response.previous == myUrl + '?offset=190&amp;limit=10' ............... passed
+* match response.results == ............................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 16 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 16 ............................................... passed
+* def previousOffset = 200 - 16 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 16 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 16 . passed
+* match response.results == '#[16]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 20 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 20 ............................................... passed
+* def previousOffset = 200 - 20 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 20 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 20 . passed
+* match response.results == '#[20]' ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Positive: Fetch 50 pokemon characters and validate the response" time="1.424303">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.next == myUrl + '?offset=210&amp;limit=10' ................... passed
+* match response.previous == myUrl + '?offset=190&amp;limit=10' ............... passed
+* match response.results == ............................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 16 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 16 ............................................... passed
+* def previousOffset = 200 - 16 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 16 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 16 . passed
+* match response.results == '#[16]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 20 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 20 ............................................... passed
+* def previousOffset = 200 - 20 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 20 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 20 . passed
+* match response.results == '#[20]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 50 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 50 ............................................... passed
+* def previousOffset = 200 - 50 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 50 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 50 . passed
+* match response.results == '#[50]' ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.MicroServiceDefinitionLayer.Test.apiTest" name="Negative: Send OffsetValue as -1" time="1.701127">
+    <system-out>* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.count == '#number' ....................................... passed
+* match response.next == '#string' ........................................ passed
+* match response.previous == '#string' .................................... passed
+* match response.results == '#[10]' ....................................... passed
+* match each response.results == { name: '#string', url: '#string' } ...... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.next == myUrl + '?offset=210&amp;limit=10' ................... passed
+* match response.previous == myUrl + '?offset=190&amp;limit=10' ............... passed
+* match response.results == ............................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 16 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 16 ............................................... passed
+* def previousOffset = 200 - 16 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 16 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 16 . passed
+* match response.results == '#[16]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 20 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 20 ............................................... passed
+* def previousOffset = 200 - 20 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 20 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 20 . passed
+* match response.results == '#[20]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 50 ...................................................... passed
+And param offset = 200 .................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def nextOffset = 200 + 50 ............................................... passed
+* def previousOffset = 200 - 50 ........................................... passed
+* match response.next == myUrl + '?offset='+ nextOffset + '&amp;limit=' + 50 .. passed
+* match response.previous == myUrl + '?offset='+ previousOffset + '&amp;limit=' + 50 . passed
+* match response.results == '#[50]' ....................................... passed
+* def myUrl = baseUrl ..................................................... passed
+* def token = authRequest.authToken ....................................... passed
+* def token_type = authRequest.authType ................................... passed
+* def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json') . passed
+* set headerBody.pokemonHeader.Authorization = token_type + token ......... passed
+Given url myUrl ........................................................... passed
+And headers headerBody.authHeader ......................................... passed
+And param limit = 10 ...................................................... passed
+And param offset = -1 ..................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* match response == ....................................................... passed</system-out>
+  </testcase>
+</testsuite>
