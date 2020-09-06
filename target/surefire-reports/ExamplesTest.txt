@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 19.894 s <<< FAILURE! - in ExamplesTest
+testAll[2][1]  Time elapsed: 0.114 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
+testAll[2][2]  Time elapsed: 0.027 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
+testAll[2][3]  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
+testAll[2][4]  Time elapsed: 0.028 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
+testAll[2][5]  Time elapsed: 0.03 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
+testAll[2][6]  Time elapsed: 0.082 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: -unknown-:19 - java.io.IOException: toDerInputStream rejects tag type 101
+
