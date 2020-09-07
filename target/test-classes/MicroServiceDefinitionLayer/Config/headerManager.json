@@ -1,8 +1,0 @@
-{
-  "authHeader": {
-    "Authorization": "authParameters"
-  },
-  "pokemonHeader": {
-    "Authorization": "authParms"
-  }
-}
