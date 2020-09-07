@@ -1,0 +1,150 @@
+<testsuite failures="6"
+           name="src/test/java/Functional/MicroServiceDefinitionLayer/apiTest.feature"
+           skipped="0"
+           tests="6"
+           time="0">
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Positive: Fetch 10 pokemon characters and validate the schema"
+             time="0">
+      <failure message="apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)</failure>
+   </testcase>
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Positive: Fetch 10 pokemon characters and validate the response"
+             time="0">
+      <failure message="apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:38)</failure>
+   </testcase>
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Positive: Fetch 16 pokemon characters and validate the response"
+             time="0">
+      <failure message="apiTest.feature:110 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:38)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:110 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:110)</failure>
+   </testcase>
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Positive: Fetch 20 pokemon characters and validate the response"
+             time="0">
+      <failure message="apiTest.feature:111 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:38)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:110 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:110)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:111 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:111)</failure>
+   </testcase>
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Positive: Fetch 50 pokemon characters and validate the response"
+             time="0">
+      <failure message="apiTest.feature:112 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:38)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:110 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:110)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:111 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:111)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:112 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:112)</failure>
+   </testcase>
+   <testcase classname="src.test.java.Functional.MicroServiceDefinitionLayer.apiTest"
+             name="Negative: Send OffsetValue as -1"
+             time="0">
+      <failure message="apiTest.feature:114 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:21 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:21)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:38 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:38)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:110 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:110)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:111 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:111)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:112 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:112)
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: apiTest.feature:114 - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+	at ✽.* scenario init failed (apiTest.feature:114)</failure>
+   </testcase>
+</testsuite>

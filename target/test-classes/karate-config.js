@@ -9,7 +9,7 @@ function fn() {
 //	myVarName: 'someValue'
   }
   if (env == 'dev') {
-    var tokenResult = karate.callSingle('classpath:Functional/MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
     config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
     karate.log('AuthenticationToken: ', config.authRequest.authToken)
     karate.log('Token_Type: ', config.authRequest.authType)
@@ -18,7 +18,7 @@ function fn() {
     baseWebUrl = 'https://demoqa.com'
 
   } else if (env == 'test') {
-    var tokenResult = karate.callSingle('classpath:Functional/MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
        config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
        karate.log('AuthenticationToken: ', config.authRequest.authToken)
        karate.log('Token_Type: ', config.authRequest.authType)

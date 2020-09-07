@@ -1,0 +1,263 @@
+14:17:52.232 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:17:52.420 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.425 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.425 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.426 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.426 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.442 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.442 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.443 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.443 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.443 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.448 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.448 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.449 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.449 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.449 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.454 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.455 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.455 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.455 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.456 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.459 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.460 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.460 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.461 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.461 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.465 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:52.465 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:17:52.466 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.466 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:17:52.466 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:17:52.969 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/Functional/MicroServiceDefinitionLayer/apiTest.feature
+14:18:21.367 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:18:21.537 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:18:21.541 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:MicroServiceDefinitionLayer/Config/authRequest.feature
+14:18:21.542 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:18:21.542 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - failed function body: function() {    
+  var env = karate.env; // get system property 'karate.env'
+  karate.log('karate.env system property was:', env);
+  if (!env) {
+    env = 'dev';
+  }
+  var config = {
+    env: env,
+//	myVarName: 'someValue'
+  }
+  if (env == 'dev') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+    config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+    karate.log('AuthenticationToken: ', config.authRequest.authToken)
+    karate.log('Token_Type: ', config.authRequest.authType)
+
+    baseUrl = 'https://pokeapi.co/api/v2/pokemon'
+    baseWebUrl = 'https://demoqa.com'
+
+  } else if (env == 'test') {
+    var tokenResult = karate.callSingle('classpath:MicroServiceDefinitionLayer/Config/authRequest.feature', config)
+       config.authRequest = {authToken: tokenResult.token, authType: tokenResult.token_type}
+       karate.log('AuthenticationToken: ', config.authRequest.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+14:18:21.542 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: javascript function call failed: java.lang.RuntimeException: java.io.FileNotFoundException: MicroServiceDefinitionLayer/Config/authRequest.feature (No such file or directory)
+14:18:21.905 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/Functional/MicroServiceDefinitionLayer/Config/authRequest.feature
