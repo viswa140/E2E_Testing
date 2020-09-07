@@ -18,6 +18,7 @@ Feature: Validate Pokemon data
     * def headerBody = read('classpath:Functional/MicroServiceDefinitionLayer/Config/headerManager.json')
 #    * configure ssl = { keyStore: 'classpath:', keyStorePassword: 'test123', keyStoreType: 'pkcs12' }
 
+  @Functional @NonFunctional
   Scenario: Positive: Fetch 10 pokemon characters and validate the schema
     * set headerBody.pokemonHeader.Authorization = token_type + token
     Given url myUrl
@@ -35,6 +36,7 @@ Feature: Validate Pokemon data
     * match response.results == '#[10]'
     * match each response.results == { name: '#string', url: '#string' }
 
+  @Functional
   Scenario: Positive: Fetch 10 pokemon characters and validate the response
     * set headerBody.pokemonHeader.Authorization = token_type + token
     Given url myUrl
@@ -91,6 +93,7 @@ Feature: Validate Pokemon data
   ]
     """
 
+  @Functional
   Scenario Outline: Positive: Fetch <noOfCharacters> pokemon characters and validate the response
     * set headerBody.pokemonHeader.Authorization = token_type + token
     Given url myUrl
@@ -111,6 +114,7 @@ Feature: Validate Pokemon data
       | To fetch 20 characters   | 20             | 200         |
       | To fetch 50 characters   | 50             | 200         |
 
+  @Functional
   Scenario: Negative: Send OffsetValue as -1
     * set headerBody.pokemonHeader.Authorization = token_type + token
     Given url myUrl
