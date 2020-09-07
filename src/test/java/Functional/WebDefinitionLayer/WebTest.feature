@@ -15,9 +15,6 @@ Feature: Web Testing
     * configure retry = {count: 3, interval: 2000}
 #    * configure driver = { type: 'chrome', addOptions: [ '--proxy-server="https://testProxy:4000"' ] }
     * def myWebUrl = baseWebUrl
-    * def token = authRequest.authToken
-    * def token_type = authRequest.authType
-    * def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json')
 
   Scenario: Positive: Invoke demoQA website, fill form and submit
     Given driver myWebUrl

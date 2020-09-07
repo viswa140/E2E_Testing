@@ -15,7 +15,7 @@ Feature: Validate Pokemon data
     * def myUrl = baseUrl
     * def token = authRequest.authToken
     * def token_type = authRequest.authType
-    * def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json')
+    * def headerBody = read('classpath:Functional/MicroServiceDefinitionLayer/Config/headerManager.json')
 #    * configure ssl = { keyStore: 'classpath:', keyStorePassword: 'test123', keyStoreType: 'pkcs12' }
 
   Scenario: Positive: Fetch 10 pokemon characters and validate the schema

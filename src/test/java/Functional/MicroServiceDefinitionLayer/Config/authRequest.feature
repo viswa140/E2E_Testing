@@ -11,8 +11,8 @@ Feature: Generate Authentication Token
 # ##################################################################
 
   Background:
-    * def authRequestBody = read('classpath:MicroServiceDefinitionLayer/Config/authBody.json')
-    * def headerBody = read('classpath:MicroServiceDefinitionLayer/Config/headerManager.json')
+    * def authRequestBody = read('classpath:Functional/MicroServiceDefinitionLayer/Config/authBody.json')
+    * def headerBody = read('classpath:Functional/MicroServiceDefinitionLayer/Config/headerManager.json')
     * if(env == 'dev') authUrl = 'https://postman-echo.com/basic-auth'
     * if(env == 'test') authUrl = 'https://postman-echo.com/auth/hawk'
 
