@@ -1,7 +1,16 @@
 {
-  "testKey1": 1,
-  "testKey2": 2,
-  "testKey3": 3,
-  "testKey4": 4,
-  "testKey5": 5
+  "env_test": {
+    "testKey1": 1,
+    "testKey2": 2,
+    "testKey3": 3,
+    "testKey4": 4,
+    "testKey5": 5
+  },
+  "env_dev": {
+    "testKey1": 6,
+    "testKey2": 7,
+    "testKey3": 8,
+    "testKey4": 9,
+    "testKey5": 10
+  }
 }

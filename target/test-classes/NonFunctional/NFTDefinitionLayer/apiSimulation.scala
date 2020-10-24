@@ -2,12 +2,10 @@ package NonFunctional.NFTDefinitionLayer
 
 import com.intuit.karate.gatling.PreDef._
 import io.gatling.core.Predef._
-import io.gatling.core.structure.ScenarioBuilder
-
 import scala.concurrent.duration._
 
 class apiSimulation extends Simulation{
-val pokemonGetTest: ScenarioBuilder = scenario("Positive: Fetch 10 pokemon characters and validate the schema")
+val pokemonGetTest = scenario("Positive: Fetch 10 pokemon characters and validate the schema")
   .exec(karateFeature("classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature@NonFunctional"))
 
   setUp(

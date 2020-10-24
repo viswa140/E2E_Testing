@@ -1,3 +1,10 @@
 {
-
+  "env_test": {
+    "client_id": "TESTCLIENT123",
+    "client_secret": "TESTSECRET123"
+  },
+  "env_dev": {
+    "client_id": "TESTCLIENT456",
+    "client_secret": "TESTSECRET456"
+  }
 }
