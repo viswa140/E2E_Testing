@@ -1,4 +1,4 @@
-End To End Testing Framework
+#### **End To End Testing Framework**
 
 This test automation framework supports API, UI and NFT. This can be extended to Mobile and Desktop.
 
