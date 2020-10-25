@@ -1,4 +1,4 @@
-#### **End To End Testing Framework**
+### **End To End Testing Framework**
 
 This test automation framework supports API, UI and NFT. This can be extended to Mobile and Desktop.
 
@@ -29,9 +29,13 @@ All the API test features, authorization features and test data should be presen
 * For basic NFT load test, reuse the same setup in the scala file by changing the feature file path to the file under test
 
 **Run Commands -**
-API: mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @Functional classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature" -Dtest=TestRunner
-UI: mvn test "-Dkarate.env = dev" -Dkarate.options="classpath:Functional/WebDefinitionLayer/WebTest.feature" -Dtest=TestRunner
-NFT: mvn clean test-compile gatling:test -Dgatling.simulationClass=NonFunctional.NFTDefinitionLayer.apiSimulation
+
+**API:** mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @Functional classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature" -Dtest=TestRunner
+
+**UI:** mvn test "-Dkarate.env = dev" -Dkarate.options="classpath:Functional/WebDefinitionLayer/WebTest.feature" -Dtest=TestRunner
+
+**NFT:** mvn clean test-compile gatling:test -Dgatling.simulationClass=NonFunctional.NFTDefinitionLayer.apiSimulation
+
 
 For details on the reusable actions, assertions, schema validation methods, karate library features etc.,  please visit below 
 
