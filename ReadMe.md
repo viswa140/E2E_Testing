@@ -2,10 +2,11 @@
 
 This test automation framework supports API, UI and NFT. This can be extended to Mobile and Desktop.
 
-**Framework Explained**
-
 **Karate-config.js -**
 * Framework flow starts here where all the environment settings should be configured. Additionally, this config file should contain one time run scenarios - In case of API's, all the token generation feature files should be configured here to run once per execution.
+
+**TestRunner -**
+* This java file is mandatory for running any *.feature files. The runTests() method configured in the class will save the test reports in target/surefire-reports folder. 
 
 **MicroServiceDefinitionLayer -**
 * All the API test features, authorization features and test data should be updated in this package.
