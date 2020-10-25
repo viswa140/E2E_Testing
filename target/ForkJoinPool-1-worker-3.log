@@ -1,0 +1,42 @@
+20:27:11.927 karate.env system property was: dev 
+20:27:13.614 this thread waited 1685 milliseconds for callSingle lock: classpath:Functional/MicroServiceDefinitionLayer/Config/authRequest.feature
+20:27:13.623 AuthenticationToken:  true 
+20:27:13.623 Token_Type:  dummy 
+20:27:13.710 request:
+1 > GET https://pokeapi.co/api/v2/pokemon?limit=16&offset=200
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: authParameters
+1 > Connection: Keep-Alive
+1 > Host: pokeapi.co
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
+
+20:27:14.536 response time in milliseconds: 814.97
+1 < 200
+1 < Accept-Ranges: bytes
+1 < Age: 2066
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5e7ae68adb95d96e-HKG
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 25 Oct 2020 09:27:14 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=NXjlMGrRldmvEKqHlt9gK%2BqyblUCEqz494swNP2yOsvUQadWGAI7CK1j4DSccpxhbkiqdxe5gsZq6EVitSBDgil639UdsO%2F3T%2B0w"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd866546f2de29fabc1066a61d8fc28a91603618034; expires=Tue, 24-Nov-20 09:27:14 GMT; path=/; domain=.pokeapi.co; HttpOnly; SameSite=Lax; Secure
+1 < access-control-allow-origin: *
+1 < cache-control: public, max-age=86400, s-maxage=86400
+1 < cf-request-id: 0600ae6acc0000d96e4b2fe000000001
+1 < etag: W/"4c7-++qwizJphK7yop1EWHKbfIu44tU"
+1 < function-execution-id: qohysii8b2xt
+1 < vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+1 < x-cache: MISS
+1 < x-cache-hits: 0
+1 < x-cloud-trace-context: 79279178c639ac09512da629e2696a6e
+1 < x-country-code: HK
+1 < x-powered-by: Express
+1 < x-served-by: cache-hkg17922-HKG
+1 < x-timer: S1603615967.442290,VS0,VE631
+{"count":1050,"next":"https://pokeapi.co/api/v2/pokemon?offset=216&limit=16","previous":"https://pokeapi.co/api/v2/pokemon?offset=184&limit=16","results":[{"name":"unown","url":"https://pokeapi.co/api/v2/pokemon/201/"},{"name":"wobbuffet","url":"https://pokeapi.co/api/v2/pokemon/202/"},{"name":"girafarig","url":"https://pokeapi.co/api/v2/pokemon/203/"},{"name":"pineco","url":"https://pokeapi.co/api/v2/pokemon/204/"},{"name":"forretress","url":"https://pokeapi.co/api/v2/pokemon/205/"},{"name":"dunsparce","url":"https://pokeapi.co/api/v2/pokemon/206/"},{"name":"gligar","url":"https://pokeapi.co/api/v2/pokemon/207/"},{"name":"steelix","url":"https://pokeapi.co/api/v2/pokemon/208/"},{"name":"snubbull","url":"https://pokeapi.co/api/v2/pokemon/209/"},{"name":"granbull","url":"https://pokeapi.co/api/v2/pokemon/210/"},{"name":"qwilfish","url":"https://pokeapi.co/api/v2/pokemon/211/"},{"name":"scizor","url":"https://pokeapi.co/api/v2/pokemon/212/"},{"name":"shuckle","url":"https://pokeapi.co/api/v2/pokemon/213/"},{"name":"heracross","url":"https://pokeapi.co/api/v2/pokemon/214/"},{"name":"sneasel","url":"https://pokeapi.co/api/v2/pokemon/215/"},{"name":"teddiursa","url":"https://pokeapi.co/api/v2/pokemon/216/"}]}
+
+eature:24 - status code was: 401, expected: 200, response time: 823, url: https://postman-echo.com/auth/hawk, response: {"error":"Unauthorized","message":"Unauthorized","statusCode":401}

@@ -1,9 +1,13 @@
-import com.intuit.karate.junit5.Karate;
+import com.intuit.karate.Results;
+import com.intuit.karate.Runner;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
 
 public class TestRunner {
-    @Karate.Test
-    Karate testAll() {
-        return Karate.run().relativeTo(getClass());
+    @Test
+    public void runTests(){
+        Results results = Runner.parallel(getClass(),5,"target/surefire-reports");
+        assertTrue(results.getErrorMessages(),results.getFailCount() == 0);
     }
 
 }

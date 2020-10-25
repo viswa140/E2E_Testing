@@ -1,0 +1,42 @@
+<testsuite failures="0"
+           name="Functional/WebDefinitionLayer/WebTest.feature"
+           skipped="0"
+           tests="1"
+           time="21.848737">
+   <testcase classname="Functional.WebDefinitionLayer.WebTest"
+             name="Positive: Invoke demoQA website, fill form and submit"
+             time="21.848737">
+      <system-out>* configure driver = { type: 'chrome' } ................................... passed
+* configure retry = {count: 3, interval: 2000} ............................ passed
+* def myWebUrl = baseWebUrl ............................................... passed
+Given driver myWebUrl ..................................................... passed
+* fullscreen() ............................................................ passed
+* waitUntil("document.title == 'ToolsQA'") ................................ passed
+* click('{}Elements') ..................................................... passed
+* waitFor('{}Forms').click() .............................................. passed
+* waitForEnabled('{}Practice Form').click() ............................... passed
+* def textBoxes = locateAll("//input[@type='text']") ...................... passed
+* def size = karate.sizeOf(textBoxes) ..................................... passed
+* print 'No Of @type text fields: ', size ................................. passed
+* textBoxes[0].input('Viswanath') ......................................... passed
+* textBoxes[1].input('Thothadri') ......................................... passed
+* textBoxes[2].input('tester@test.com') ................................... passed
+* textBoxes[3].input('0400000000') ........................................ passed
+* textBoxes[4].click() .................................................... passed
+* click('{label}Male') .................................................... passed
+* waitFor("//*[@class='react-datepicker__tab-loop']") ..................... passed
+* click('{button}Previous Month') ......................................... passed
+* locate("//div[@class='react-datepicker__day react-datepicker__day--003']").click() . passed
+And match value('#dateOfBirthInput') == '03 Sep 2020' ..................... passed
+* click('{label}Sports') .................................................. passed
+* click('{label}Music') ................................................... passed
+* input('#currentAddress', '999 Bourke Street') ........................... passed
+* screenshot() ............................................................ passed
+* input('input[id=react-select-3-input]', ['Rajasthan', Key.ENTER]) ....... passed
+* waitForEnabled('#react-select-4-input').input('Jaipur') ................. passed
+* input('#react-select-4-input', Key.ENTER) ............................... passed
+* scroll('#submit').screenshot() .......................................... passed
+* click('#submit') ........................................................ passed
+* waitFor('{}Thanks for submitting the form').screenshot() ................ passed</system-out>
+   </testcase>
+</testsuite>

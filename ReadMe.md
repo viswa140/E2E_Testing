@@ -28,6 +28,11 @@ All the API test features, authorization features and test data should be presen
 * Individual scenarios from the feature file can be selected for NFT using tags
 * For basic NFT load test, reuse the same setup in the scala file by changing the feature file path to the file under test
 
+**Run Commands -**
+API: mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @Functional classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature" -Dtest=TestRunner
+UI: mvn test "-Dkarate.env = dev" -Dkarate.options="classpath:Functional/WebDefinitionLayer/WebTest.feature" -Dtest=TestRunner
+NFT: mvn clean test-compile gatling:test -Dgatling.simulationClass=NonFunctional.NFTDefinitionLayer.apiSimulation
+
 For details on the reusable actions, assertions, schema validation methods, karate library features etc.,  please visit below 
 
 API - https://github.com/intuit/karate

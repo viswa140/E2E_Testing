@@ -1,0 +1,43 @@
+20:27:11.924 karate.env system property was: dev 
+20:27:13.618 this thread waited 1688 milliseconds for callSingle lock: classpath:Functional/MicroServiceDefinitionLayer/Config/authRequest.feature
+20:27:13.622 AuthenticationToken:  true 
+20:27:13.623 Token_Type:  dummy 
+20:27:13.710 request:
+1 > GET https://pokeapi.co/api/v2/pokemon?limit=20&offset=200
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: authParameters
+1 > Connection: Keep-Alive
+1 > Host: pokeapi.co
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
+
+20:27:14.532 response time in milliseconds: 815.48
+1 < 200
+1 < Accept-Ranges: bytes
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2065
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5e7ae68aebe60bba-HKG
+1 < Cache-Control: public, max-age=86400, s-maxage=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 25 Oct 2020 09:27:14 GMT
+1 < Etag: W/"5cf-jFDcS2szrWGjqpGTVSln/4odnCQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Function-Execution-Id: qohyeos9k5iv
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=wYJj2ji%2FTIEtujPvbkN3d7fCw2oOSgInQq%2B9E3cSlWLL4dd8qUReQjFZHs3yCwGGPEjpkCCC8DedB%2BuJsaoqRFfkCiUa3Irt6cb4"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d239921cabbaa5a0855bd2376d1b2ea941603618034; expires=Tue, 24-Nov-20 09:27:14 GMT; path=/; domain=.pokeapi.co; HttpOnly; SameSite=Lax; Secure
+1 < Vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+1 < X-Cache: MISS
+1 < X-Cache-Hits: 0
+1 < X-Cloud-Trace-Context: ee3170a11f90d59eee9eb38e0072327e
+1 < X-Country-Code: HK
+1 < X-Powered-By: Express
+1 < X-Served-By: cache-hkg17928-HKG
+1 < X-Timer: S1603615969.669617,VS0,VE699
+1 < cf-request-id: 0600ae6ad000000bba0dac9000000001
+{"count":1050,"next":"https://pokeapi.co/api/v2/pokemon?offset=220&limit=20","previous":"https://pokeapi.co/api/v2/pokemon?offset=180&limit=20","results":[{"name":"unown","url":"https://pokeapi.co/api/v2/pokemon/201/"},{"name":"wobbuffet","url":"https://pokeapi.co/api/v2/pokemon/202/"},{"name":"girafarig","url":"https://pokeapi.co/api/v2/pokemon/203/"},{"name":"pineco","url":"https://pokeapi.co/api/v2/pokemon/204/"},{"name":"forretress","url":"https://pokeapi.co/api/v2/pokemon/205/"},{"name":"dunsparce","url":"https://pokeapi.co/api/v2/pokemon/206/"},{"name":"gligar","url":"https://pokeapi.co/api/v2/pokemon/207/"},{"name":"steelix","url":"https://pokeapi.co/api/v2/pokemon/208/"},{"name":"snubbull","url":"https://pokeapi.co/api/v2/pokemon/209/"},{"name":"granbull","url":"https://pokeapi.co/api/v2/pokemon/210/"},{"name":"qwilfish","url":"https://pokeapi.co/api/v2/pokemon/211/"},{"name":"scizor","url":"https://pokeapi.co/api/v2/pokemon/212/"},{"name":"shuckle","url":"https://pokeapi.co/api/v2/pokemon/213/"},{"name":"heracross","url":"https://pokeapi.co/api/v2/pokemon/214/"},{"name":"sneasel","url":"https://pokeapi.co/api/v2/pokemon/215/"},{"name":"teddiursa","url":"https://pokeapi.co/api/v2/pokemon/216/"},{"name":"ursaring","url":"https://pokeapi.co/api/v2/pokemon/217/"},{"name":"slugma","url":"https://pokeapi.co/api/v2/pokemon/218/"},{"name":"magcargo","url":"https://pokeapi.co/api/v2/pokemon/219/"},{"name":"swinub","url":"https://pokeapi.co/api/v2/pokemon/220/"}]}
+
+]}
+

@@ -1,0 +1,56 @@
+20:27:11.937 karate.env system property was: dev 
+20:27:13.613 this thread waited 1676 milliseconds for callSingle lock: classpath:Functional/MicroServiceDefinitionLayer/Config/authRequest.feature
+20:27:13.621 AuthenticationToken:  true 
+20:27:13.623 Token_Type:  dummy 
+20:27:13.709 request:
+1 > GET https://pokeapi.co/api/v2/pokemon?limit=10&offset=200
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: authParameters
+1 > Connection: Keep-Alive
+1 > Host: pokeapi.co
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_131)
+
+20:27:14.527 response time in milliseconds: 815.04
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2068
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5e7ae68aefc92308-HKG
+1 < Cache-Control: public, max-age=86400, s-maxage=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 25 Oct 2020 09:27:14 GMT
+1 < Etag: W/"337-WEokXI0Xl8ngEoHVQErOKDIpoLg"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Function-Execution-Id: qohy5wopunbc
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=CDHOjPQMNz0BGEeQNI31TWzrWVZGTrEDqjTEaKLmPxGL9Nc8IpzwYDtqmabjhY%2BQ89XIFpX3yHFeqlRXovO0z8eqWCjJGqSPtTWv"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d341f3e611f8d4c1dac385504c05c71561603618034; expires=Tue, 24-Nov-20 09:27:14 GMT; path=/; domain=.pokeapi.co; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+1 < X-Cache: MISS
+1 < X-Cache-Hits: 0
+1 < X-Cloud-Trace-Context: 84567bbf9cadedfde70091cd404aa488
+1 < X-Country-Code: HK
+1 < X-Powered-By: Express
+1 < X-Served-By: cache-hkg17933-HKG
+1 < X-Timer: S1603615965.494516,VS0,VE713
+1 < cf-request-id: 0600ae6acf00002308ea084000000001
+{"count":1050,"next":"https://pokeapi.co/api/v2/pokemon?offset=210&limit=10","previous":"https://pokeapi.co/api/v2/pokemon?offset=190&limit=10","results":[{"name":"unown","url":"https://pokeapi.co/api/v2/pokemon/201/"},{"name":"wobbuffet","url":"https://pokeapi.co/api/v2/pokemon/202/"},{"name":"girafarig","url":"https://pokeapi.co/api/v2/pokemon/203/"},{"name":"pineco","url":"https://pokeapi.co/api/v2/pokemon/204/"},{"name":"forretress","url":"https://pokeapi.co/api/v2/pokemon/205/"},{"name":"dunsparce","url":"https://pokeapi.co/api/v2/pokemon/206/"},{"name":"gligar","url":"https://pokeapi.co/api/v2/pokemon/207/"},{"name":"steelix","url":"https://pokeapi.co/api/v2/pokemon/208/"},{"name":"snubbull","url":"https://pokeapi.co/api/v2/pokemon/209/"},{"name":"granbull","url":"https://pokeapi.co/api/v2/pokemon/210/"}]}
+
+"}]}
+
+.authToken)
+       karate.log('Token_Type: ', config.authRequest.authType)
+
+       baseUrl = 'https://pokeapi.co/api/v1/pokemon'
+       baseWebUrl = 'https://demoqa.com'
+  }
+     else if (env == 'sit') {
+      // customize
+    }
+  return config;
+}
+20:20:14.749 evaluation of 'karate-config.js' failed: javascript function call failed: com.intuit.karate.exception.KarateException: 
+authRequest.feature:24 - status code was: 401, expected: 200, response time: 878, url: https://postman-echo.com/auth/hawk, response: {"error":"Unauthorized","message":"Unauthorized","statusCode":401}
