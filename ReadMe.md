@@ -30,12 +30,11 @@ All the API test features, authorization features and test data should be presen
 
 **Run Commands -**
 
-**API:** mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @Functional classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature" -Dtest=TestRunner
+* **API:** mvn test "-Dkarate.env = dev" -Dkarate.options="--tags @Functional classpath:Functional/MicroServiceDefinitionLayer/apiTest.feature" -Dtest=TestRunner
+* **UI:** mvn test "-Dkarate.env = dev" -Dkarate.options="classpath:Functional/WebDefinitionLayer/WebTest.feature" -Dtest=TestRunner
+* **NFT:** mvn clean test-compile gatling:test -Dgatling.simulationClass=NonFunctional.NFTDefinitionLayer.apiSimulation
 
-**UI:** mvn test "-Dkarate.env = dev" -Dkarate.options="classpath:Functional/WebDefinitionLayer/WebTest.feature" -Dtest=TestRunner
-
-**NFT:** mvn clean test-compile gatling:test -Dgatling.simulationClass=NonFunctional.NFTDefinitionLayer.apiSimulation
-
+**More Details -**
 
 For details on the reusable actions, assertions, schema validation methods, karate library features etc.,  please visit below 
 
