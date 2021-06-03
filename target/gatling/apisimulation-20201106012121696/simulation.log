@@ -1,0 +1,964 @@
+RUN	NonFunctional.NFTDefinitionLayer.apiSimulation	apisimulation	1604625681696	 	3.0.2
+USER	Positive: Fetch 10 pokemon characters and validate the schema	1	START	1604625681884	1604625681884
+USER	Positive: Fetch 10 pokemon characters and validate the schema	2	START	1604625682787	1604625682787
+USER	Positive: Fetch 10 pokemon characters and validate the schema	3	START	1604625682887	1604625682887
+USER	Positive: Fetch 10 pokemon characters and validate the schema	4	START	1604625682987	1604625682987
+USER	Positive: Fetch 10 pokemon characters and validate the schema	5	START	1604625683093	1604625683093
+USER	Positive: Fetch 10 pokemon characters and validate the schema	6	START	1604625683188	1604625683188
+USER	Positive: Fetch 10 pokemon characters and validate the schema	7	START	1604625683289	1604625683289
+USER	Positive: Fetch 10 pokemon characters and validate the schema	8	START	1604625683388	1604625683388
+USER	Positive: Fetch 10 pokemon characters and validate the schema	9	START	1604625683498	1604625683498
+USER	Positive: Fetch 10 pokemon characters and validate the schema	10	START	1604625683598	1604625683598
+USER	Positive: Fetch 10 pokemon characters and validate the schema	11	START	1604625683697	1604625683697
+USER	Positive: Fetch 10 pokemon characters and validate the schema	12	START	1604625683799	1604625683799
+REQUEST	2		GET /basic-auth/	1604625683230	1604625684539	OK	 
+REQUEST	4		GET /api/v2/pokemon/	1604625684681	1604625685873	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	4	END	1604625682987	1604625685907
+USER	Positive: Fetch 10 pokemon characters and validate the schema	13	START	1604625685928	1604625685928
+REQUEST	7		GET /api/v2/pokemon/	1604625684678	1604625686003	OK	 
+REQUEST	3		GET /api/v2/pokemon/	1604625684676	1604625686003	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	14	START	1604625686006	1604625686006
+REQUEST	8		GET /api/v2/pokemon/	1604625684674	1604625686001	OK	 
+REQUEST	5		GET /api/v2/pokemon/	1604625684679	1604625686007	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	17	START	1604625686010	1604625686010
+USER	Positive: Fetch 10 pokemon characters and validate the schema	16	START	1604625686009	1604625686009
+USER	Positive: Fetch 10 pokemon characters and validate the schema	22	START	1604625686036	1604625686036
+REQUEST	9		GET /api/v2/pokemon/	1604625684672	1604625686037	OK	 
+REQUEST	10		GET /api/v2/pokemon/	1604625684665	1604625686040	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	23	START	1604625686041	1604625686041
+USER	Positive: Fetch 10 pokemon characters and validate the schema	15	START	1604625686008	1604625686008
+REQUEST	11		GET /api/v2/pokemon/	1604625684670	1604625686037	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	18	START	1604625686055	1604625686055
+USER	Positive: Fetch 10 pokemon characters and validate the schema	19	START	1604625686058	1604625686058
+USER	Positive: Fetch 10 pokemon characters and validate the schema	20	START	1604625686060	1604625686060
+USER	Positive: Fetch 10 pokemon characters and validate the schema	21	START	1604625686064	1604625686064
+USER	Positive: Fetch 10 pokemon characters and validate the schema	24	START	1604625686044	1604625686044
+USER	Positive: Fetch 10 pokemon characters and validate the schema	25	START	1604625686118	1604625686118
+USER	Positive: Fetch 10 pokemon characters and validate the schema	26	START	1604625686121	1604625686121
+USER	Positive: Fetch 10 pokemon characters and validate the schema	27	START	1604625686124	1604625686124
+USER	Positive: Fetch 10 pokemon characters and validate the schema	28	START	1604625686126	1604625686126
+USER	Positive: Fetch 10 pokemon characters and validate the schema	29	START	1604625686129	1604625686129
+USER	Positive: Fetch 10 pokemon characters and validate the schema	30	START	1604625686132	1604625686132
+USER	Positive: Fetch 10 pokemon characters and validate the schema	31	START	1604625686134	1604625686134
+USER	Positive: Fetch 10 pokemon characters and validate the schema	32	START	1604625686141	1604625686141
+USER	Positive: Fetch 10 pokemon characters and validate the schema	33	START	1604625686149	1604625686149
+USER	Positive: Fetch 10 pokemon characters and validate the schema	34	START	1604625686173	1604625686173
+USER	Positive: Fetch 10 pokemon characters and validate the schema	35	START	1604625686176	1604625686176
+USER	Positive: Fetch 10 pokemon characters and validate the schema	36	START	1604625686179	1604625686179
+USER	Positive: Fetch 10 pokemon characters and validate the schema	37	START	1604625686182	1604625686182
+USER	Positive: Fetch 10 pokemon characters and validate the schema	38	START	1604625686185	1604625686185
+USER	Positive: Fetch 10 pokemon characters and validate the schema	39	START	1604625686188	1604625686188
+USER	Positive: Fetch 10 pokemon characters and validate the schema	40	START	1604625686190	1604625686190
+USER	Positive: Fetch 10 pokemon characters and validate the schema	41	START	1604625686193	1604625686193
+USER	Positive: Fetch 10 pokemon characters and validate the schema	42	START	1604625686195	1604625686195
+USER	Positive: Fetch 10 pokemon characters and validate the schema	7	END	1604625683289	1604625686005
+USER	Positive: Fetch 10 pokemon characters and validate the schema	3	END	1604625682887	1604625686006
+USER	Positive: Fetch 10 pokemon characters and validate the schema	8	END	1604625683388	1604625686010
+USER	Positive: Fetch 10 pokemon characters and validate the schema	5	END	1604625683093	1604625686010
+USER	Positive: Fetch 10 pokemon characters and validate the schema	9	END	1604625683498	1604625686042
+USER	Positive: Fetch 10 pokemon characters and validate the schema	10	END	1604625683598	1604625686043
+USER	Positive: Fetch 10 pokemon characters and validate the schema	11	END	1604625683697	1604625686054
+REQUEST	13		GET /api/v2/pokemon/	1604625685997	1604625686226	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	13	END	1604625685928	1604625686229
+REQUEST	14		GET /api/v2/pokemon/	1604625686133	1604625686256	OK	 
+REQUEST	17		GET /api/v2/pokemon/	1604625686151	1604625686256	OK	 
+REQUEST	23		GET /api/v2/pokemon/	1604625686139	1604625686257	OK	 
+REQUEST	16		GET /api/v2/pokemon/	1604625686153	1604625686258	OK	 
+REQUEST	22		GET /api/v2/pokemon/	1604625686173	1604625686297	OK	 
+REQUEST	18		GET /api/v2/pokemon/	1604625686180	1604625686297	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	14	END	1604625686006	1604625686286
+USER	Positive: Fetch 10 pokemon characters and validate the schema	16	END	1604625686009	1604625686289
+USER	Positive: Fetch 10 pokemon characters and validate the schema	23	END	1604625686041	1604625686289
+USER	Positive: Fetch 10 pokemon characters and validate the schema	17	END	1604625686010	1604625686293
+USER	Positive: Fetch 10 pokemon characters and validate the schema	22	END	1604625686036	1604625686300
+REQUEST	24		GET /api/v2/pokemon/	1604625686251	1604625686394	OK	 
+REQUEST	15		GET /api/v2/pokemon/	1604625686229	1604625686427	OK	 
+REQUEST	26		GET /api/v2/pokemon/	1604625686355	1604625686465	OK	 
+REQUEST	25		GET /api/v2/pokemon/	1604625686369	1604625686468	OK	 
+REQUEST	27		GET /api/v2/pokemon/	1604625686369	1604625686471	OK	 
+REQUEST	1		GET /api/v2/pokemon/	1604625684670	1604625686488	OK	 
+REQUEST	6		GET /api/v2/pokemon/	1604625684672	1604625686490	OK	 
+REQUEST	2		GET /api/v2/pokemon/	1604625684650	1604625686495	OK	 
+REQUEST	28		GET /api/v2/pokemon/	1604625686380	1604625686523	OK	 
+REQUEST	12		GET /api/v2/pokemon/	1604625684667	1604625686495	OK	 
+REQUEST	29		GET /api/v2/pokemon/	1604625686378	1604625686525	OK	 
+REQUEST	30		GET /api/v2/pokemon/	1604625686383	1604625686579	OK	 
+REQUEST	31		GET /api/v2/pokemon/	1604625686418	1604625686591	OK	 
+REQUEST	33		GET /api/v2/pokemon/	1604625686522	1604625686678	OK	 
+REQUEST	34		GET /api/v2/pokemon/	1604625686527	1604625686679	OK	 
+REQUEST	19		GET /api/v2/pokemon/	1604625686543	1604625686682	OK	 
+REQUEST	32		GET /api/v2/pokemon/	1604625686477	1604625686683	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	43	START	1604625686684	1604625686684
+USER	Positive: Fetch 10 pokemon characters and validate the schema	44	START	1604625686685	1604625686685
+REQUEST	35		GET /api/v2/pokemon/	1604625686533	1604625686686	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	45	START	1604625686686	1604625686686
+USER	Positive: Fetch 10 pokemon characters and validate the schema	46	START	1604625686687	1604625686687
+USER	Positive: Fetch 10 pokemon characters and validate the schema	47	START	1604625686689	1604625686689
+REQUEST	39		GET /api/v2/pokemon/	1604625686583	1604625686718	OK	 
+REQUEST	38		GET /api/v2/pokemon/	1604625686601	1604625686718	OK	 
+REQUEST	20		GET /api/v2/pokemon/	1604625686596	1604625686720	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	18	END	1604625686055	1604625686303
+USER	Positive: Fetch 10 pokemon characters and validate the schema	24	END	1604625686044	1604625686397
+USER	Positive: Fetch 10 pokemon characters and validate the schema	15	END	1604625686008	1604625686430
+USER	Positive: Fetch 10 pokemon characters and validate the schema	26	END	1604625686121	1604625686467
+USER	Positive: Fetch 10 pokemon characters and validate the schema	25	END	1604625686118	1604625686470
+USER	Positive: Fetch 10 pokemon characters and validate the schema	27	END	1604625686124	1604625686472
+USER	Positive: Fetch 10 pokemon characters and validate the schema	1	END	1604625681884	1604625686492
+USER	Positive: Fetch 10 pokemon characters and validate the schema	6	END	1604625683188	1604625686493
+USER	Positive: Fetch 10 pokemon characters and validate the schema	2	END	1604625682787	1604625686519
+USER	Positive: Fetch 10 pokemon characters and validate the schema	28	END	1604625686126	1604625686525
+REQUEST	36		GET /api/v2/pokemon/	1604625686585	1604625686729	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	12	END	1604625683799	1604625686526
+USER	Positive: Fetch 10 pokemon characters and validate the schema	29	END	1604625686129	1604625686528
+USER	Positive: Fetch 10 pokemon characters and validate the schema	30	END	1604625686132	1604625686582
+USER	Positive: Fetch 10 pokemon characters and validate the schema	31	END	1604625686134	1604625686593
+USER	Positive: Fetch 10 pokemon characters and validate the schema	33	END	1604625686149	1604625686681
+USER	Positive: Fetch 10 pokemon characters and validate the schema	34	END	1604625686173	1604625686681
+USER	Positive: Fetch 10 pokemon characters and validate the schema	19	END	1604625686058	1604625686684
+USER	Positive: Fetch 10 pokemon characters and validate the schema	32	END	1604625686141	1604625686685
+USER	Positive: Fetch 10 pokemon characters and validate the schema	35	END	1604625686176	1604625686688
+USER	Positive: Fetch 10 pokemon characters and validate the schema	39	END	1604625686188	1604625686720
+USER	Positive: Fetch 10 pokemon characters and validate the schema	38	END	1604625686185	1604625686720
+USER	Positive: Fetch 10 pokemon characters and validate the schema	20	END	1604625686060	1604625686721
+USER	Positive: Fetch 10 pokemon characters and validate the schema	36	END	1604625686179	1604625686730
+REQUEST	40		GET /api/v2/pokemon/	1604625686607	1604625686732	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	40	END	1604625686190	1604625686738
+REQUEST	37		GET /api/v2/pokemon/	1604625686605	1604625686778	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	37	END	1604625686182	1604625686803
+REQUEST	41		GET /api/v2/pokemon/	1604625686647	1604625686802	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	41	END	1604625686193	1604625686805
+USER	Positive: Fetch 10 pokemon characters and validate the schema	48	START	1604625686780	1604625686780
+USER	Positive: Fetch 10 pokemon characters and validate the schema	49	START	1604625686846	1604625686846
+REQUEST	46		GET /api/v2/pokemon/	1604625686736	1604625686853	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	46	END	1604625686687	1604625686856
+REQUEST	45		GET /api/v2/pokemon/	1604625686741	1604625686873	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	45	END	1604625686686	1604625686876
+REQUEST	47		GET /api/v2/pokemon/	1604625686753	1604625686883	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	47	END	1604625686689	1604625686886
+REQUEST	43		GET /api/v2/pokemon/	1604625686794	1604625686900	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	43	END	1604625686684	1604625686903
+REQUEST	21		GET /api/v2/pokemon/	1604625686808	1604625686908	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	21	END	1604625686064	1604625686911
+REQUEST	44		GET /api/v2/pokemon/	1604625686806	1604625686914	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	44	END	1604625686685	1604625686916
+REQUEST	42		GET /api/v2/pokemon/	1604625686808	1604625686918	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	42	END	1604625686195	1604625686919
+REQUEST	48		GET /api/v2/pokemon/	1604625686838	1604625686930	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	48	END	1604625686780	1604625686932
+USER	Positive: Fetch 10 pokemon characters and validate the schema	50	START	1604625686948	1604625686948
+REQUEST	49		GET /api/v2/pokemon/	1604625686875	1604625686972	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	49	END	1604625686846	1604625686975
+USER	Positive: Fetch 10 pokemon characters and validate the schema	51	START	1604625687048	1604625687048
+REQUEST	50		GET /api/v2/pokemon/	1604625686974	1604625687073	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	50	END	1604625686948	1604625687075
+USER	Positive: Fetch 10 pokemon characters and validate the schema	53	START	1604625687087	1604625687087
+USER	Positive: Fetch 10 pokemon characters and validate the schema	52	START	1604625687146	1604625687146
+REQUEST	51		GET /api/v2/pokemon/	1604625687077	1604625687183	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	51	END	1604625687048	1604625687185
+USER	Positive: Fetch 10 pokemon characters and validate the schema	54	START	1604625687186	1604625687186
+REQUEST	53		GET /api/v2/pokemon/	1604625687111	1604625687206	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	53	END	1604625687087	1604625687209
+REQUEST	52		GET /api/v2/pokemon/	1604625687171	1604625687269	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	52	END	1604625687146	1604625687271
+USER	Positive: Fetch 10 pokemon characters and validate the schema	55	START	1604625687287	1604625687287
+REQUEST	54		GET /api/v2/pokemon/	1604625687212	1604625687305	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	54	END	1604625687186	1604625687308
+USER	Positive: Fetch 10 pokemon characters and validate the schema	56	START	1604625687387	1604625687387
+REQUEST	55		GET /api/v2/pokemon/	1604625687317	1604625687419	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	55	END	1604625687287	1604625687421
+USER	Positive: Fetch 10 pokemon characters and validate the schema	57	START	1604625687488	1604625687488
+REQUEST	56		GET /api/v2/pokemon/	1604625687410	1604625687514	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	56	END	1604625687387	1604625687516
+USER	Positive: Fetch 10 pokemon characters and validate the schema	58	START	1604625687592	1604625687592
+REQUEST	57		GET /api/v2/pokemon/	1604625687513	1604625687614	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	57	END	1604625687488	1604625687617
+USER	Positive: Fetch 10 pokemon characters and validate the schema	59	START	1604625687689	1604625687689
+REQUEST	58		GET /api/v2/pokemon/	1604625687616	1604625687714	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	58	END	1604625687592	1604625687716
+USER	Positive: Fetch 10 pokemon characters and validate the schema	60	START	1604625687787	1604625687787
+REQUEST	59		GET /api/v2/pokemon/	1604625687709	1604625687818	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	59	END	1604625687689	1604625687819
+USER	Positive: Fetch 10 pokemon characters and validate the schema	61	START	1604625687888	1604625687888
+REQUEST	60		GET /api/v2/pokemon/	1604625687807	1604625687920	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	60	END	1604625687787	1604625687926
+USER	Positive: Fetch 10 pokemon characters and validate the schema	62	START	1604625687988	1604625687988
+REQUEST	61		GET /api/v2/pokemon/	1604625687922	1604625688025	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	61	END	1604625687888	1604625688027
+USER	Positive: Fetch 10 pokemon characters and validate the schema	63	START	1604625688089	1604625688089
+REQUEST	62		GET /api/v2/pokemon/	1604625688006	1604625688101	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	62	END	1604625687988	1604625688103
+USER	Positive: Fetch 10 pokemon characters and validate the schema	64	START	1604625688188	1604625688188
+REQUEST	63		GET /api/v2/pokemon/	1604625688107	1604625688210	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	63	END	1604625688089	1604625688213
+USER	Positive: Fetch 10 pokemon characters and validate the schema	65	START	1604625688289	1604625688289
+REQUEST	64		GET /api/v2/pokemon/	1604625688207	1604625688358	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	64	END	1604625688188	1604625688361
+USER	Positive: Fetch 10 pokemon characters and validate the schema	66	START	1604625688386	1604625688386
+REQUEST	65		GET /api/v2/pokemon/	1604625688306	1604625688401	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	65	END	1604625688289	1604625688403
+USER	Positive: Fetch 10 pokemon characters and validate the schema	67	START	1604625688488	1604625688488
+REQUEST	66		GET /api/v2/pokemon/	1604625688409	1604625688504	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	66	END	1604625688386	1604625688505
+USER	Positive: Fetch 10 pokemon characters and validate the schema	68	START	1604625688586	1604625688586
+REQUEST	67		GET /api/v2/pokemon/	1604625688510	1604625688606	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	67	END	1604625688488	1604625688608
+USER	Positive: Fetch 10 pokemon characters and validate the schema	69	START	1604625688686	1604625688686
+REQUEST	68		GET /api/v2/pokemon/	1604625688608	1604625688707	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	68	END	1604625688586	1604625688708
+USER	Positive: Fetch 10 pokemon characters and validate the schema	70	START	1604625688788	1604625688788
+REQUEST	69		GET /api/v2/pokemon/	1604625688703	1604625688812	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	69	END	1604625688686	1604625688813
+USER	Positive: Fetch 10 pokemon characters and validate the schema	71	START	1604625688887	1604625688887
+REQUEST	70		GET /api/v2/pokemon/	1604625688804	1604625688909	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	70	END	1604625688788	1604625688910
+USER	Positive: Fetch 10 pokemon characters and validate the schema	72	START	1604625688987	1604625688987
+REQUEST	71		GET /api/v2/pokemon/	1604625688907	1604625689006	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	71	END	1604625688887	1604625689008
+USER	Positive: Fetch 10 pokemon characters and validate the schema	73	START	1604625689086	1604625689086
+REQUEST	72		GET /api/v2/pokemon/	1604625689004	1604625689105	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	72	END	1604625688987	1604625689106
+USER	Positive: Fetch 10 pokemon characters and validate the schema	74	START	1604625689187	1604625689187
+REQUEST	73		GET /api/v2/pokemon/	1604625689102	1604625689195	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	73	END	1604625689086	1604625689197
+USER	Positive: Fetch 10 pokemon characters and validate the schema	75	START	1604625689287	1604625689287
+REQUEST	74		GET /api/v2/pokemon/	1604625689204	1604625689297	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	74	END	1604625689187	1604625689299
+USER	Positive: Fetch 10 pokemon characters and validate the schema	76	START	1604625689387	1604625689387
+REQUEST	75		GET /api/v2/pokemon/	1604625689304	1604625689399	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	75	END	1604625689287	1604625689401
+USER	Positive: Fetch 10 pokemon characters and validate the schema	77	START	1604625689488	1604625689488
+REQUEST	76		GET /api/v2/pokemon/	1604625689405	1604625689496	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	76	END	1604625689387	1604625689499
+USER	Positive: Fetch 10 pokemon characters and validate the schema	78	START	1604625689588	1604625689588
+REQUEST	77		GET /api/v2/pokemon/	1604625689506	1604625689606	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	77	END	1604625689488	1604625689608
+USER	Positive: Fetch 10 pokemon characters and validate the schema	79	START	1604625689687	1604625689687
+REQUEST	78		GET /api/v2/pokemon/	1604625689604	1604625689698	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	78	END	1604625689588	1604625689703
+USER	Positive: Fetch 10 pokemon characters and validate the schema	80	START	1604625689788	1604625689788
+REQUEST	79		GET /api/v2/pokemon/	1604625689706	1604625689805	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	79	END	1604625689687	1604625689806
+USER	Positive: Fetch 10 pokemon characters and validate the schema	81	START	1604625689888	1604625689888
+REQUEST	80		GET /api/v2/pokemon/	1604625689808	1604625689905	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	80	END	1604625689788	1604625689906
+USER	Positive: Fetch 10 pokemon characters and validate the schema	82	START	1604625689987	1604625689987
+REQUEST	81		GET /api/v2/pokemon/	1604625689916	1604625690014	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	81	END	1604625689888	1604625690016
+USER	Positive: Fetch 10 pokemon characters and validate the schema	83	START	1604625690088	1604625690088
+REQUEST	82		GET /api/v2/pokemon/	1604625690001	1604625690093	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	82	END	1604625689987	1604625690094
+USER	Positive: Fetch 10 pokemon characters and validate the schema	84	START	1604625690187	1604625690187
+REQUEST	83		GET /api/v2/pokemon/	1604625690105	1604625690197	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	83	END	1604625690088	1604625690198
+USER	Positive: Fetch 10 pokemon characters and validate the schema	85	START	1604625690287	1604625690287
+REQUEST	84		GET /api/v2/pokemon/	1604625690206	1604625690311	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	84	END	1604625690187	1604625690311
+USER	Positive: Fetch 10 pokemon characters and validate the schema	86	START	1604625690388	1604625690388
+REQUEST	85		GET /api/v2/pokemon/	1604625690302	1604625690397	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	85	END	1604625690287	1604625690398
+USER	Positive: Fetch 10 pokemon characters and validate the schema	87	START	1604625690486	1604625690486
+REQUEST	86		GET /api/v2/pokemon/	1604625690403	1604625690498	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	86	END	1604625690388	1604625690503
+USER	Positive: Fetch 10 pokemon characters and validate the schema	88	START	1604625690588	1604625690588
+REQUEST	87		GET /api/v2/pokemon/	1604625690503	1604625690596	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	87	END	1604625690486	1604625690597
+USER	Positive: Fetch 10 pokemon characters and validate the schema	89	START	1604625690688	1604625690688
+REQUEST	88		GET /api/v2/pokemon/	1604625690604	1604625690705	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	88	END	1604625690588	1604625690706
+USER	Positive: Fetch 10 pokemon characters and validate the schema	90	START	1604625690786	1604625690786
+REQUEST	89		GET /api/v2/pokemon/	1604625690703	1604625690798	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	89	END	1604625690688	1604625690800
+USER	Positive: Fetch 10 pokemon characters and validate the schema	91	START	1604625690888	1604625690888
+REQUEST	90		GET /api/v2/pokemon/	1604625690805	1604625690919	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	90	END	1604625690786	1604625690920
+USER	Positive: Fetch 10 pokemon characters and validate the schema	92	START	1604625690989	1604625690989
+REQUEST	91		GET /api/v2/pokemon/	1604625690907	1604625691002	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	91	END	1604625690888	1604625691004
+USER	Positive: Fetch 10 pokemon characters and validate the schema	93	START	1604625691088	1604625691088
+REQUEST	92		GET /api/v2/pokemon/	1604625691012	1604625691112	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	92	END	1604625690989	1604625691113
+USER	Positive: Fetch 10 pokemon characters and validate the schema	94	START	1604625691189	1604625691189
+REQUEST	93		GET /api/v2/pokemon/	1604625691103	1604625691204	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	93	END	1604625691088	1604625691205
+USER	Positive: Fetch 10 pokemon characters and validate the schema	95	START	1604625691288	1604625691288
+REQUEST	94		GET /api/v2/pokemon/	1604625691203	1604625691298	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	94	END	1604625691189	1604625691299
+USER	Positive: Fetch 10 pokemon characters and validate the schema	96	START	1604625691386	1604625691386
+REQUEST	95		GET /api/v2/pokemon/	1604625691302	1604625691400	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	95	END	1604625691288	1604625691401
+USER	Positive: Fetch 10 pokemon characters and validate the schema	97	START	1604625691487	1604625691487
+REQUEST	96		GET /api/v2/pokemon/	1604625691404	1604625691528	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	96	END	1604625691386	1604625691546
+USER	Positive: Fetch 10 pokemon characters and validate the schema	98	START	1604625691588	1604625691588
+REQUEST	97		GET /api/v2/pokemon/	1604625691501	1604625691649	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	97	END	1604625691487	1604625691654
+USER	Positive: Fetch 10 pokemon characters and validate the schema	99	START	1604625691688	1604625691688
+REQUEST	98		GET /api/v2/pokemon/	1604625691609	1604625691711	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	98	END	1604625691588	1604625691712
+USER	Positive: Fetch 10 pokemon characters and validate the schema	100	START	1604625691786	1604625691786
+REQUEST	99		GET /api/v2/pokemon/	1604625691707	1604625691810	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	99	END	1604625691688	1604625691812
+USER	Positive: Fetch 10 pokemon characters and validate the schema	101	START	1604625691888	1604625691888
+REQUEST	100		GET /api/v2/pokemon/	1604625691802	1604625691901	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	100	END	1604625691786	1604625691902
+USER	Positive: Fetch 10 pokemon characters and validate the schema	102	START	1604625691986	1604625691986
+REQUEST	101		GET /api/v2/pokemon/	1604625691909	1604625692015	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	101	END	1604625691888	1604625692019
+USER	Positive: Fetch 10 pokemon characters and validate the schema	103	START	1604625692086	1604625692086
+REQUEST	102		GET /api/v2/pokemon/	1604625692003	1604625692100	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	102	END	1604625691986	1604625692101
+USER	Positive: Fetch 10 pokemon characters and validate the schema	104	START	1604625692186	1604625692186
+REQUEST	103		GET /api/v2/pokemon/	1604625692101	1604625692198	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	103	END	1604625692086	1604625692199
+USER	Positive: Fetch 10 pokemon characters and validate the schema	105	START	1604625692285	1604625692285
+REQUEST	104		GET /api/v2/pokemon/	1604625692203	1604625692293	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	104	END	1604625692186	1604625692295
+USER	Positive: Fetch 10 pokemon characters and validate the schema	106	START	1604625692388	1604625692388
+REQUEST	105		GET /api/v2/pokemon/	1604625692306	1604625692391	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	105	END	1604625692285	1604625692393
+USER	Positive: Fetch 10 pokemon characters and validate the schema	107	START	1604625692488	1604625692488
+REQUEST	106		GET /api/v2/pokemon/	1604625692407	1604625692504	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	106	END	1604625692388	1604625692505
+USER	Positive: Fetch 10 pokemon characters and validate the schema	108	START	1604625692587	1604625692587
+REQUEST	107		GET /api/v2/pokemon/	1604625692513	1604625692628	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	107	END	1604625692488	1604625692630
+USER	Positive: Fetch 10 pokemon characters and validate the schema	109	START	1604625692689	1604625692689
+REQUEST	108		GET /api/v2/pokemon/	1604625692606	1604625692699	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	108	END	1604625692587	1604625692702
+USER	Positive: Fetch 10 pokemon characters and validate the schema	110	START	1604625692789	1604625692789
+REQUEST	109		GET /api/v2/pokemon/	1604625692708	1604625692805	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	109	END	1604625692689	1604625692806
+USER	Positive: Fetch 10 pokemon characters and validate the schema	111	START	1604625692888	1604625692888
+REQUEST	110		GET /api/v2/pokemon/	1604625692802	1604625692901	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	110	END	1604625692789	1604625692903
+USER	Positive: Fetch 10 pokemon characters and validate the schema	112	START	1604625692988	1604625692988
+REQUEST	111		GET /api/v2/pokemon/	1604625692906	1604625693003	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	111	END	1604625692888	1604625693004
+USER	Positive: Fetch 10 pokemon characters and validate the schema	113	START	1604625693086	1604625693086
+REQUEST	112		GET /api/v2/pokemon/	1604625693007	1604625693102	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	112	END	1604625692988	1604625693103
+USER	Positive: Fetch 10 pokemon characters and validate the schema	114	START	1604625693186	1604625693186
+REQUEST	113		GET /api/v2/pokemon/	1604625693102	1604625693205	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	113	END	1604625693086	1604625693206
+USER	Positive: Fetch 10 pokemon characters and validate the schema	115	START	1604625693287	1604625693287
+REQUEST	114		GET /api/v2/pokemon/	1604625693203	1604625693306	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	114	END	1604625693186	1604625693307
+USER	Positive: Fetch 10 pokemon characters and validate the schema	116	START	1604625693388	1604625693388
+REQUEST	115		GET /api/v2/pokemon/	1604625693303	1604625693398	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	115	END	1604625693287	1604625693402
+USER	Positive: Fetch 10 pokemon characters and validate the schema	117	START	1604625693487	1604625693487
+REQUEST	116		GET /api/v2/pokemon/	1604625693409	1604625693503	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	116	END	1604625693388	1604625693504
+USER	Positive: Fetch 10 pokemon characters and validate the schema	118	START	1604625693587	1604625693587
+REQUEST	117		GET /api/v2/pokemon/	1604625693504	1604625693601	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	117	END	1604625693487	1604625693603
+USER	Positive: Fetch 10 pokemon characters and validate the schema	119	START	1604625693687	1604625693687
+REQUEST	118		GET /api/v2/pokemon/	1604625693601	1604625693695	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	118	END	1604625693587	1604625693696
+USER	Positive: Fetch 10 pokemon characters and validate the schema	120	START	1604625693786	1604625693786
+REQUEST	119		GET /api/v2/pokemon/	1604625693706	1604625693802	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	119	END	1604625693687	1604625693804
+USER	Positive: Fetch 10 pokemon characters and validate the schema	121	START	1604625693887	1604625693887
+REQUEST	120		GET /api/v2/pokemon/	1604625693803	1604625693895	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	120	END	1604625693786	1604625693896
+USER	Positive: Fetch 10 pokemon characters and validate the schema	122	START	1604625693987	1604625693987
+REQUEST	121		GET /api/v2/pokemon/	1604625693909	1604625694003	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	121	END	1604625693887	1604625694007
+USER	Positive: Fetch 10 pokemon characters and validate the schema	123	START	1604625694089	1604625694089
+REQUEST	122		GET /api/v2/pokemon/	1604625694008	1604625694111	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	122	END	1604625693987	1604625694113
+USER	Positive: Fetch 10 pokemon characters and validate the schema	124	START	1604625694188	1604625694188
+REQUEST	123		GET /api/v2/pokemon/	1604625694106	1604625694200	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	123	END	1604625694089	1604625694204
+USER	Positive: Fetch 10 pokemon characters and validate the schema	125	START	1604625694289	1604625694289
+REQUEST	124		GET /api/v2/pokemon/	1604625694210	1604625694303	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	124	END	1604625694188	1604625694304
+USER	Positive: Fetch 10 pokemon characters and validate the schema	126	START	1604625694388	1604625694388
+REQUEST	125		GET /api/v2/pokemon/	1604625694305	1604625694402	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	125	END	1604625694289	1604625694404
+USER	Positive: Fetch 10 pokemon characters and validate the schema	127	START	1604625694487	1604625694487
+REQUEST	126		GET /api/v2/pokemon/	1604625694407	1604625694507	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	126	END	1604625694388	1604625694509
+USER	Positive: Fetch 10 pokemon characters and validate the schema	128	START	1604625694586	1604625694586
+REQUEST	127		GET /api/v2/pokemon/	1604625694504	1604625694599	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	127	END	1604625694487	1604625694602
+USER	Positive: Fetch 10 pokemon characters and validate the schema	129	START	1604625694686	1604625694686
+REQUEST	128		GET /api/v2/pokemon/	1604625694611	1604625694720	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	128	END	1604625694586	1604625694722
+USER	Positive: Fetch 10 pokemon characters and validate the schema	130	START	1604625694786	1604625694786
+REQUEST	129		GET /api/v2/pokemon/	1604625694701	1604625694794	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	129	END	1604625694686	1604625694796
+USER	Positive: Fetch 10 pokemon characters and validate the schema	131	START	1604625694887	1604625694887
+REQUEST	130		GET /api/v2/pokemon/	1604625694797	1604625694886	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	130	END	1604625694786	1604625694893
+USER	Positive: Fetch 10 pokemon characters and validate the schema	132	START	1604625694987	1604625694987
+REQUEST	131		GET /api/v2/pokemon/	1604625694899	1604625694993	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	131	END	1604625694887	1604625694996
+USER	Positive: Fetch 10 pokemon characters and validate the schema	133	START	1604625695086	1604625695086
+REQUEST	132		GET /api/v2/pokemon/	1604625695006	1604625695100	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	132	END	1604625694987	1604625695100
+USER	Positive: Fetch 10 pokemon characters and validate the schema	134	START	1604625695186	1604625695186
+REQUEST	133		GET /api/v2/pokemon/	1604625695099	1604625695202	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	133	END	1604625695086	1604625695202
+USER	Positive: Fetch 10 pokemon characters and validate the schema	135	START	1604625695289	1604625695289
+REQUEST	134		GET /api/v2/pokemon/	1604625695196	1604625695295	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	134	END	1604625695186	1604625695296
+USER	Positive: Fetch 10 pokemon characters and validate the schema	136	START	1604625695386	1604625695386
+REQUEST	135		GET /api/v2/pokemon/	1604625695304	1604625695403	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	135	END	1604625695289	1604625695403
+USER	Positive: Fetch 10 pokemon characters and validate the schema	137	START	1604625695488	1604625695488
+REQUEST	136		GET /api/v2/pokemon/	1604625695399	1604625695496	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	136	END	1604625695386	1604625695497
+USER	Positive: Fetch 10 pokemon characters and validate the schema	138	START	1604625695586	1604625695586
+REQUEST	137		GET /api/v2/pokemon/	1604625695499	1604625695599	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	137	END	1604625695488	1604625695599
+USER	Positive: Fetch 10 pokemon characters and validate the schema	139	START	1604625695686	1604625695686
+REQUEST	138		GET /api/v2/pokemon/	1604625695599	1604625695701	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	138	END	1604625695586	1604625695701
+USER	Positive: Fetch 10 pokemon characters and validate the schema	140	START	1604625695786	1604625695786
+REQUEST	139		GET /api/v2/pokemon/	1604625695703	1604625695803	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	139	END	1604625695686	1604625695805
+USER	Positive: Fetch 10 pokemon characters and validate the schema	141	START	1604625695887	1604625695887
+REQUEST	140		GET /api/v2/pokemon/	1604625695795	1604625695919	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	140	END	1604625695786	1604625695922
+USER	Positive: Fetch 10 pokemon characters and validate the schema	142	START	1604625695989	1604625695989
+REQUEST	141		GET /api/v2/pokemon/	1604625695901	1604625696004	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	141	END	1604625695887	1604625696009
+USER	Positive: Fetch 10 pokemon characters and validate the schema	143	START	1604625696087	1604625696087
+REQUEST	142		GET /api/v2/pokemon/	1604625696005	1604625696111	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	142	END	1604625695989	1604625696112
+REQUEST	143		GET /api/v2/pokemon/	1604625696100	1604625696190	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	143	END	1604625696087	1604625696191
+USER	Positive: Fetch 10 pokemon characters and validate the schema	144	START	1604625696188	1604625696188
+USER	Positive: Fetch 10 pokemon characters and validate the schema	145	START	1604625696287	1604625696287
+REQUEST	144		GET /api/v2/pokemon/	1604625696198	1604625696301	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	144	END	1604625696188	1604625696317
+USER	Positive: Fetch 10 pokemon characters and validate the schema	146	START	1604625696387	1604625696387
+REQUEST	145		GET /api/v2/pokemon/	1604625696298	1604625696434	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	145	END	1604625696287	1604625696434
+USER	Positive: Fetch 10 pokemon characters and validate the schema	147	START	1604625696488	1604625696488
+REQUEST	146		GET /api/v2/pokemon/	1604625696400	1604625696505	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	146	END	1604625696387	1604625696505
+USER	Positive: Fetch 10 pokemon characters and validate the schema	148	START	1604625696588	1604625696588
+REQUEST	147		GET /api/v2/pokemon/	1604625696500	1604625696592	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	147	END	1604625696488	1604625696594
+USER	Positive: Fetch 10 pokemon characters and validate the schema	149	START	1604625696688	1604625696688
+REQUEST	148		GET /api/v2/pokemon/	1604625696606	1604625696704	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	148	END	1604625696588	1604625696704
+USER	Positive: Fetch 10 pokemon characters and validate the schema	150	START	1604625696786	1604625696786
+REQUEST	149		GET /api/v2/pokemon/	1604625696701	1604625696794	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	149	END	1604625696688	1604625696803
+USER	Positive: Fetch 10 pokemon characters and validate the schema	151	START	1604625696888	1604625696888
+REQUEST	150		GET /api/v2/pokemon/	1604625696809	1604625696937	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	150	END	1604625696786	1604625696938
+USER	Positive: Fetch 10 pokemon characters and validate the schema	152	START	1604625696987	1604625696987
+REQUEST	151		GET /api/v2/pokemon/	1604625696901	1604625697001	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	151	END	1604625696888	1604625697002
+REQUEST	152		GET /api/v2/pokemon/	1604625697002	1604625697090	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	153	START	1604625697087	1604625697087
+USER	Positive: Fetch 10 pokemon characters and validate the schema	152	END	1604625696987	1604625697091
+USER	Positive: Fetch 10 pokemon characters and validate the schema	154	START	1604625697188	1604625697188
+REQUEST	153		GET /api/v2/pokemon/	1604625697099	1604625697200	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	153	END	1604625697087	1604625697201
+USER	Positive: Fetch 10 pokemon characters and validate the schema	155	START	1604625697288	1604625697288
+REQUEST	154		GET /api/v2/pokemon/	1604625697201	1604625697300	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	154	END	1604625697188	1604625697300
+USER	Positive: Fetch 10 pokemon characters and validate the schema	156	START	1604625697387	1604625697387
+REQUEST	155		GET /api/v2/pokemon/	1604625697301	1604625697392	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	155	END	1604625697288	1604625697399
+USER	Positive: Fetch 10 pokemon characters and validate the schema	157	START	1604625697487	1604625697487
+REQUEST	156		GET /api/v2/pokemon/	1604625697404	1604625697497	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	156	END	1604625697387	1604625697498
+USER	Positive: Fetch 10 pokemon characters and validate the schema	158	START	1604625697588	1604625697588
+REQUEST	157		GET /api/v2/pokemon/	1604625697501	1604625697600	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	157	END	1604625697487	1604625697600
+USER	Positive: Fetch 10 pokemon characters and validate the schema	159	START	1604625697687	1604625697687
+REQUEST	158		GET /api/v2/pokemon/	1604625697602	1604625697697	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	158	END	1604625697588	1604625697702
+USER	Positive: Fetch 10 pokemon characters and validate the schema	160	START	1604625697788	1604625697788
+REQUEST	159		GET /api/v2/pokemon/	1604625697701	1604625697797	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	159	END	1604625697687	1604625697797
+USER	Positive: Fetch 10 pokemon characters and validate the schema	161	START	1604625697886	1604625697886
+REQUEST	160		GET /api/v2/pokemon/	1604625697798	1604625697899	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	160	END	1604625697788	1604625697900
+USER	Positive: Fetch 10 pokemon characters and validate the schema	162	START	1604625697988	1604625697988
+REQUEST	161		GET /api/v2/pokemon/	1604625697898	1604625697994	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	161	END	1604625697886	1604625697997
+USER	Positive: Fetch 10 pokemon characters and validate the schema	163	START	1604625698088	1604625698088
+REQUEST	162		GET /api/v2/pokemon/	1604625698003	1604625698100	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	162	END	1604625697988	1604625698103
+USER	Positive: Fetch 10 pokemon characters and validate the schema	164	START	1604625698187	1604625698187
+REQUEST	163		GET /api/v2/pokemon/	1604625698100	1604625698203	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	163	END	1604625698088	1604625698207
+USER	Positive: Fetch 10 pokemon characters and validate the schema	165	START	1604625698288	1604625698288
+REQUEST	164		GET /api/v2/pokemon/	1604625698210	1604625698304	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	164	END	1604625698187	1604625698305
+USER	Positive: Fetch 10 pokemon characters and validate the schema	166	START	1604625698387	1604625698387
+REQUEST	165		GET /api/v2/pokemon/	1604625698298	1604625698405	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	165	END	1604625698288	1604625698406
+USER	Positive: Fetch 10 pokemon characters and validate the schema	167	START	1604625698489	1604625698489
+REQUEST	166		GET /api/v2/pokemon/	1604625698401	1604625698501	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	166	END	1604625698387	1604625698502
+USER	Positive: Fetch 10 pokemon characters and validate the schema	168	START	1604625698587	1604625698587
+REQUEST	167		GET /api/v2/pokemon/	1604625698498	1604625698597	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	167	END	1604625698489	1604625698598
+REQUEST	168		GET /api/v2/pokemon/	1604625698600	1604625698687	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	168	END	1604625698587	1604625698689
+USER	Positive: Fetch 10 pokemon characters and validate the schema	169	START	1604625698688	1604625698688
+USER	Positive: Fetch 10 pokemon characters and validate the schema	170	START	1604625698786	1604625698786
+REQUEST	169		GET /api/v2/pokemon/	1604625698699	1604625698794	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	169	END	1604625698688	1604625698794
+USER	Positive: Fetch 10 pokemon characters and validate the schema	171	START	1604625698886	1604625698886
+REQUEST	170		GET /api/v2/pokemon/	1604625698799	1604625698909	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	170	END	1604625698786	1604625698909
+USER	Positive: Fetch 10 pokemon characters and validate the schema	172	START	1604625698988	1604625698988
+REQUEST	171		GET /api/v2/pokemon/	1604625698896	1604625698993	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	171	END	1604625698886	1604625698994
+USER	Positive: Fetch 10 pokemon characters and validate the schema	173	START	1604625699088	1604625699088
+REQUEST	172		GET /api/v2/pokemon/	1604625699007	1604625699111	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	172	END	1604625698988	1604625699112
+USER	Positive: Fetch 10 pokemon characters and validate the schema	174	START	1604625699188	1604625699188
+REQUEST	173		GET /api/v2/pokemon/	1604625699101	1604625699206	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	173	END	1604625699088	1604625699207
+USER	Positive: Fetch 10 pokemon characters and validate the schema	175	START	1604625699289	1604625699289
+REQUEST	174		GET /api/v2/pokemon/	1604625699200	1604625699298	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	174	END	1604625699188	1604625699298
+REQUEST	175		GET /api/v2/pokemon/	1604625699301	1604625699388	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	176	START	1604625699387	1604625699387
+USER	Positive: Fetch 10 pokemon characters and validate the schema	175	END	1604625699289	1604625699389
+USER	Positive: Fetch 10 pokemon characters and validate the schema	177	START	1604625699488	1604625699488
+REQUEST	176		GET /api/v2/pokemon/	1604625699397	1604625699490	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	176	END	1604625699387	1604625699491
+USER	Positive: Fetch 10 pokemon characters and validate the schema	178	START	1604625699588	1604625699588
+REQUEST	177		GET /api/v2/pokemon/	1604625699498	1604625699599	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	177	END	1604625699488	1604625699601
+USER	Positive: Fetch 10 pokemon characters and validate the schema	179	START	1604625699686	1604625699686
+REQUEST	178		GET /api/v2/pokemon/	1604625699600	1604625699697	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	178	END	1604625699588	1604625699697
+USER	Positive: Fetch 10 pokemon characters and validate the schema	180	START	1604625699789	1604625699789
+REQUEST	179		GET /api/v2/pokemon/	1604625699700	1604625699806	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	179	END	1604625699686	1604625699806
+USER	Positive: Fetch 10 pokemon characters and validate the schema	181	START	1604625699887	1604625699887
+REQUEST	180		GET /api/v2/pokemon/	1604625699801	1604625699905	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	180	END	1604625699789	1604625699905
+USER	Positive: Fetch 10 pokemon characters and validate the schema	182	START	1604625699988	1604625699988
+REQUEST	181		GET /api/v2/pokemon/	1604625699898	1604625700001	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	181	END	1604625699887	1604625700001
+USER	Positive: Fetch 10 pokemon characters and validate the schema	183	START	1604625700088	1604625700088
+REQUEST	182		GET /api/v2/pokemon/	1604625700000	1604625700107	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	182	END	1604625699988	1604625700108
+USER	Positive: Fetch 10 pokemon characters and validate the schema	184	START	1604625700186	1604625700186
+REQUEST	183		GET /api/v2/pokemon/	1604625700100	1604625700207	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	183	END	1604625700088	1604625700207
+USER	Positive: Fetch 10 pokemon characters and validate the schema	185	START	1604625700287	1604625700287
+REQUEST	184		GET /api/v2/pokemon/	1604625700197	1604625700297	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	184	END	1604625700186	1604625700297
+USER	Positive: Fetch 10 pokemon characters and validate the schema	186	START	1604625700386	1604625700386
+REQUEST	185		GET /api/v2/pokemon/	1604625700300	1604625700411	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	185	END	1604625700287	1604625700411
+USER	Positive: Fetch 10 pokemon characters and validate the schema	187	START	1604625700488	1604625700488
+REQUEST	186		GET /api/v2/pokemon/	1604625700394	1604625700495	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	186	END	1604625700386	1604625700496
+USER	Positive: Fetch 10 pokemon characters and validate the schema	188	START	1604625700587	1604625700587
+REQUEST	187		GET /api/v2/pokemon/	1604625700497	1604625700591	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	187	END	1604625700488	1604625700593
+USER	Positive: Fetch 10 pokemon characters and validate the schema	189	START	1604625700688	1604625700688
+REQUEST	188		GET /api/v2/pokemon/	1604625700598	1604625700708	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	188	END	1604625700587	1604625700711
+USER	Positive: Fetch 10 pokemon characters and validate the schema	190	START	1604625700788	1604625700788
+REQUEST	189		GET /api/v2/pokemon/	1604625700700	1604625700826	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	189	END	1604625700688	1604625700827
+USER	Positive: Fetch 10 pokemon characters and validate the schema	191	START	1604625700889	1604625700889
+REQUEST	190		GET /api/v2/pokemon/	1604625700801	1604625700901	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	190	END	1604625700788	1604625700903
+USER	Positive: Fetch 10 pokemon characters and validate the schema	192	START	1604625700986	1604625700986
+REQUEST	191		GET /api/v2/pokemon/	1604625700902	1604625700996	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	191	END	1604625700889	1604625700996
+USER	Positive: Fetch 10 pokemon characters and validate the schema	193	START	1604625701086	1604625701086
+REQUEST	192		GET /api/v2/pokemon/	1604625700998	1604625701097	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	192	END	1604625700986	1604625701098
+USER	Positive: Fetch 10 pokemon characters and validate the schema	194	START	1604625701187	1604625701187
+REQUEST	193		GET /api/v2/pokemon/	1604625701099	1604625701196	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	193	END	1604625701086	1604625701196
+USER	Positive: Fetch 10 pokemon characters and validate the schema	195	START	1604625701288	1604625701288
+REQUEST	194		GET /api/v2/pokemon/	1604625701200	1604625701303	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	194	END	1604625701187	1604625701304
+USER	Positive: Fetch 10 pokemon characters and validate the schema	196	START	1604625701386	1604625701386
+REQUEST	195		GET /api/v2/pokemon/	1604625701301	1604625701394	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	195	END	1604625701288	1604625701394
+USER	Positive: Fetch 10 pokemon characters and validate the schema	197	START	1604625701489	1604625701489
+REQUEST	196		GET /api/v2/pokemon/	1604625701398	1604625701508	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	196	END	1604625701386	1604625701509
+USER	Positive: Fetch 10 pokemon characters and validate the schema	198	START	1604625701587	1604625701587
+REQUEST	197		GET /api/v2/pokemon/	1604625701503	1604625701602	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	197	END	1604625701489	1604625701603
+USER	Positive: Fetch 10 pokemon characters and validate the schema	199	START	1604625701687	1604625701687
+REQUEST	198		GET /api/v2/pokemon/	1604625701599	1604625701697	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	198	END	1604625701587	1604625701698
+USER	Positive: Fetch 10 pokemon characters and validate the schema	200	START	1604625701786	1604625701786
+REQUEST	199		GET /api/v2/pokemon/	1604625701698	1604625701800	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	199	END	1604625701687	1604625701800
+USER	Positive: Fetch 10 pokemon characters and validate the schema	201	START	1604625701886	1604625701886
+REQUEST	200		GET /api/v2/pokemon/	1604625701801	1604625701892	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	200	END	1604625701786	1604625701892
+USER	Positive: Fetch 10 pokemon characters and validate the schema	202	START	1604625701986	1604625701986
+REQUEST	201		GET /api/v2/pokemon/	1604625701898	1604625701995	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	201	END	1604625701886	1604625701995
+USER	Positive: Fetch 10 pokemon characters and validate the schema	203	START	1604625702086	1604625702086
+REQUEST	202		GET /api/v2/pokemon/	1604625701999	1604625702127	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	202	END	1604625701986	1604625702128
+USER	Positive: Fetch 10 pokemon characters and validate the schema	204	START	1604625702187	1604625702187
+REQUEST	203		GET /api/v2/pokemon/	1604625702136	1604625702264	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	203	END	1604625702086	1604625702264
+USER	Positive: Fetch 10 pokemon characters and validate the schema	205	START	1604625702288	1604625702288
+REQUEST	204		GET /api/v2/pokemon/	1604625702201	1604625702299	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	204	END	1604625702187	1604625702301
+USER	Positive: Fetch 10 pokemon characters and validate the schema	206	START	1604625702386	1604625702386
+REQUEST	205		GET /api/v2/pokemon/	1604625702303	1604625702403	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	205	END	1604625702288	1604625702404
+USER	Positive: Fetch 10 pokemon characters and validate the schema	207	START	1604625702487	1604625702487
+REQUEST	206		GET /api/v2/pokemon/	1604625702397	1604625702497	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	206	END	1604625702386	1604625702497
+USER	Positive: Fetch 10 pokemon characters and validate the schema	208	START	1604625702586	1604625702586
+REQUEST	207		GET /api/v2/pokemon/	1604625702498	1604625702599	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	207	END	1604625702487	1604625702600
+USER	Positive: Fetch 10 pokemon characters and validate the schema	209	START	1604625702687	1604625702687
+REQUEST	208		GET /api/v2/pokemon/	1604625702596	1604625702697	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	208	END	1604625702586	1604625702697
+USER	Positive: Fetch 10 pokemon characters and validate the schema	210	START	1604625702787	1604625702787
+REQUEST	209		GET /api/v2/pokemon/	1604625702700	1604625702799	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	209	END	1604625702687	1604625702799
+USER	Positive: Fetch 10 pokemon characters and validate the schema	211	START	1604625702887	1604625702887
+REQUEST	210		GET /api/v2/pokemon/	1604625702797	1604625702895	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	210	END	1604625702787	1604625702895
+USER	Positive: Fetch 10 pokemon characters and validate the schema	212	START	1604625702987	1604625702987
+REQUEST	211		GET /api/v2/pokemon/	1604625702897	1604625702998	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	211	END	1604625702887	1604625703000
+USER	Positive: Fetch 10 pokemon characters and validate the schema	213	START	1604625703088	1604625703088
+REQUEST	212		GET /api/v2/pokemon/	1604625703002	1604625703091	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	212	END	1604625702987	1604625703092
+USER	Positive: Fetch 10 pokemon characters and validate the schema	214	START	1604625703185	1604625703185
+REQUEST	213		GET /api/v2/pokemon/	1604625703109	1604625703205	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	213	END	1604625703088	1604625703206
+USER	Positive: Fetch 10 pokemon characters and validate the schema	215	START	1604625703286	1604625703286
+REQUEST	214		GET /api/v2/pokemon/	1604625703198	1604625703290	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	214	END	1604625703185	1604625703290
+USER	Positive: Fetch 10 pokemon characters and validate the schema	216	START	1604625703388	1604625703388
+REQUEST	215		GET /api/v2/pokemon/	1604625703298	1604625703389	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	215	END	1604625703286	1604625703391
+USER	Positive: Fetch 10 pokemon characters and validate the schema	217	START	1604625703486	1604625703486
+REQUEST	216		GET /api/v2/pokemon/	1604625703399	1604625703498	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	216	END	1604625703388	1604625703500
+USER	Positive: Fetch 10 pokemon characters and validate the schema	218	START	1604625703586	1604625703586
+REQUEST	217		GET /api/v2/pokemon/	1604625703499	1604625703592	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	217	END	1604625703486	1604625703594
+USER	Positive: Fetch 10 pokemon characters and validate the schema	219	START	1604625703686	1604625703686
+REQUEST	218		GET /api/v2/pokemon/	1604625703609	1604625703702	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	218	END	1604625703586	1604625703703
+USER	Positive: Fetch 10 pokemon characters and validate the schema	220	START	1604625703788	1604625703788
+REQUEST	219		GET /api/v2/pokemon/	1604625703697	1604625703791	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	219	END	1604625703686	1604625703793
+USER	Positive: Fetch 10 pokemon characters and validate the schema	221	START	1604625703887	1604625703887
+REQUEST	220		GET /api/v2/pokemon/	1604625703799	1604625703896	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	220	END	1604625703788	1604625703896
+USER	Positive: Fetch 10 pokemon characters and validate the schema	222	START	1604625703987	1604625703987
+REQUEST	221		GET /api/v2/pokemon/	1604625703899	1604625703995	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	221	END	1604625703887	1604625703996
+USER	Positive: Fetch 10 pokemon characters and validate the schema	223	START	1604625704086	1604625704086
+REQUEST	222		GET /api/v2/pokemon/	1604625704000	1604625704098	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	222	END	1604625703987	1604625704099
+USER	Positive: Fetch 10 pokemon characters and validate the schema	224	START	1604625704187	1604625704187
+REQUEST	223		GET /api/v2/pokemon/	1604625704097	1604625704200	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	223	END	1604625704086	1604625704201
+USER	Positive: Fetch 10 pokemon characters and validate the schema	225	START	1604625704287	1604625704287
+REQUEST	224		GET /api/v2/pokemon/	1604625704197	1604625704302	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	224	END	1604625704187	1604625704302
+USER	Positive: Fetch 10 pokemon characters and validate the schema	226	START	1604625704387	1604625704387
+REQUEST	225		GET /api/v2/pokemon/	1604625704298	1604625704407	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	225	END	1604625704287	1604625704408
+REQUEST	226		GET /api/v2/pokemon/	1604625704397	1604625704488	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	226	END	1604625704387	1604625704488
+USER	Positive: Fetch 10 pokemon characters and validate the schema	227	START	1604625704487	1604625704487
+USER	Positive: Fetch 10 pokemon characters and validate the schema	228	START	1604625704586	1604625704586
+REQUEST	227		GET /api/v2/pokemon/	1604625704497	1604625704598	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	227	END	1604625704487	1604625704599
+USER	Positive: Fetch 10 pokemon characters and validate the schema	229	START	1604625704688	1604625704688
+REQUEST	228		GET /api/v2/pokemon/	1604625704597	1604625704697	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	228	END	1604625704586	1604625704702
+USER	Positive: Fetch 10 pokemon characters and validate the schema	230	START	1604625704786	1604625704786
+REQUEST	229		GET /api/v2/pokemon/	1604625704699	1604625704788	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	229	END	1604625704688	1604625704788
+USER	Positive: Fetch 10 pokemon characters and validate the schema	231	START	1604625704886	1604625704886
+REQUEST	230		GET /api/v2/pokemon/	1604625704798	1604625704896	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	230	END	1604625704786	1604625704896
+USER	Positive: Fetch 10 pokemon characters and validate the schema	232	START	1604625704986	1604625704986
+REQUEST	231		GET /api/v2/pokemon/	1604625704897	1604625704991	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	231	END	1604625704886	1604625704991
+USER	Positive: Fetch 10 pokemon characters and validate the schema	233	START	1604625705087	1604625705087
+REQUEST	232		GET /api/v2/pokemon/	1604625704997	1604625705091	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	232	END	1604625704986	1604625705091
+USER	Positive: Fetch 10 pokemon characters and validate the schema	234	START	1604625705186	1604625705186
+REQUEST	233		GET /api/v2/pokemon/	1604625705098	1604625705189	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	233	END	1604625705087	1604625705190
+USER	Positive: Fetch 10 pokemon characters and validate the schema	235	START	1604625705286	1604625705286
+REQUEST	234		GET /api/v2/pokemon/	1604625705200	1604625705297	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	234	END	1604625705186	1604625705298
+USER	Positive: Fetch 10 pokemon characters and validate the schema	236	START	1604625705387	1604625705387
+REQUEST	235		GET /api/v2/pokemon/	1604625705297	1604625705404	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	235	END	1604625705286	1604625705405
+USER	Positive: Fetch 10 pokemon characters and validate the schema	237	START	1604625705486	1604625705486
+REQUEST	236		GET /api/v2/pokemon/	1604625705397	1604625705492	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	236	END	1604625705387	1604625705492
+USER	Positive: Fetch 10 pokemon characters and validate the schema	238	START	1604625705586	1604625705586
+REQUEST	237		GET /api/v2/pokemon/	1604625705499	1604625705600	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	237	END	1604625705486	1604625705600
+USER	Positive: Fetch 10 pokemon characters and validate the schema	239	START	1604625705686	1604625705686
+REQUEST	238		GET /api/v2/pokemon/	1604625705598	1604625705702	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	238	END	1604625705586	1604625705702
+REQUEST	239		GET /api/v2/pokemon/	1604625705699	1604625705787	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	239	END	1604625705686	1604625705788
+USER	Positive: Fetch 10 pokemon characters and validate the schema	240	START	1604625705786	1604625705786
+USER	Positive: Fetch 10 pokemon characters and validate the schema	241	START	1604625705887	1604625705887
+REQUEST	240		GET /api/v2/pokemon/	1604625705797	1604625705904	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	240	END	1604625705786	1604625705910
+USER	Positive: Fetch 10 pokemon characters and validate the schema	242	START	1604625705987	1604625705987
+REQUEST	241		GET /api/v2/pokemon/	1604625705901	1604625706002	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	241	END	1604625705887	1604625706002
+USER	Positive: Fetch 10 pokemon characters and validate the schema	243	START	1604625706087	1604625706087
+REQUEST	242		GET /api/v2/pokemon/	1604625705998	1604625706094	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	242	END	1604625705987	1604625706096
+USER	Positive: Fetch 10 pokemon characters and validate the schema	244	START	1604625706188	1604625706188
+REQUEST	243		GET /api/v2/pokemon/	1604625706104	1604625706204	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	243	END	1604625706087	1604625706205
+USER	Positive: Fetch 10 pokemon characters and validate the schema	245	START	1604625706287	1604625706287
+REQUEST	244		GET /api/v2/pokemon/	1604625706202	1604625706295	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	244	END	1604625706188	1604625706296
+USER	Positive: Fetch 10 pokemon characters and validate the schema	246	START	1604625706388	1604625706388
+REQUEST	245		GET /api/v2/pokemon/	1604625706307	1604625706443	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	245	END	1604625706287	1604625706444
+USER	Positive: Fetch 10 pokemon characters and validate the schema	247	START	1604625706486	1604625706486
+REQUEST	246		GET /api/v2/pokemon/	1604625706397	1604625706511	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	246	END	1604625706388	1604625706513
+USER	Positive: Fetch 10 pokemon characters and validate the schema	248	START	1604625706588	1604625706588
+REQUEST	247		GET /api/v2/pokemon/	1604625706501	1604625706607	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	247	END	1604625706486	1604625706608
+USER	Positive: Fetch 10 pokemon characters and validate the schema	249	START	1604625706686	1604625706686
+REQUEST	248		GET /api/v2/pokemon/	1604625706603	1604625706692	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	248	END	1604625706588	1604625706692
+USER	Positive: Fetch 10 pokemon characters and validate the schema	250	START	1604625706786	1604625706786
+REQUEST	249		GET /api/v2/pokemon/	1604625706698	1604625706795	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	249	END	1604625706686	1604625706795
+USER	Positive: Fetch 10 pokemon characters and validate the schema	251	START	1604625706887	1604625706887
+REQUEST	250		GET /api/v2/pokemon/	1604625706802	1604625706905	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	250	END	1604625706786	1604625706905
+USER	Positive: Fetch 10 pokemon characters and validate the schema	252	START	1604625706989	1604625706989
+USER	Positive: Fetch 10 pokemon characters and validate the schema	253	START	1604625707086	1604625707086
+REQUEST	252		GET /api/v2/pokemon/	1604625707003	1604625707103	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	252	END	1604625706989	1604625707103
+USER	Positive: Fetch 10 pokemon characters and validate the schema	254	START	1604625707191	1604625707191
+REQUEST	253		GET /api/v2/pokemon/	1604625707100	1604625707196	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	253	END	1604625707086	1604625707198
+USER	Positive: Fetch 10 pokemon characters and validate the schema	255	START	1604625707286	1604625707286
+REQUEST	254		GET /api/v2/pokemon/	1604625707206	1604625707308	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	254	END	1604625707191	1604625707308
+USER	Positive: Fetch 10 pokemon characters and validate the schema	256	START	1604625707386	1604625707386
+REQUEST	255		GET /api/v2/pokemon/	1604625707305	1604625707415	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	255	END	1604625707286	1604625707418
+USER	Positive: Fetch 10 pokemon characters and validate the schema	257	START	1604625707486	1604625707486
+REQUEST	256		GET /api/v2/pokemon/	1604625707423	1604625707546	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	256	END	1604625707386	1604625707547
+USER	Positive: Fetch 10 pokemon characters and validate the schema	258	START	1604625707587	1604625707587
+REQUEST	257		GET /api/v2/pokemon/	1604625707497	1604625707596	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	257	END	1604625707486	1604625707596
+USER	Positive: Fetch 10 pokemon characters and validate the schema	259	START	1604625707686	1604625707686
+REQUEST	258		GET /api/v2/pokemon/	1604625707598	1604625707715	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	258	END	1604625707587	1604625707716
+USER	Positive: Fetch 10 pokemon characters and validate the schema	260	START	1604625707787	1604625707787
+REQUEST	259		GET /api/v2/pokemon/	1604625707702	1604625707802	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	259	END	1604625707686	1604625707804
+REQUEST	260		GET /api/v2/pokemon/	1604625707796	1604625707887	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	260	END	1604625707787	1604625707887
+USER	Positive: Fetch 10 pokemon characters and validate the schema	261	START	1604625707886	1604625707886
+USER	Positive: Fetch 10 pokemon characters and validate the schema	262	START	1604625707986	1604625707986
+REQUEST	261		GET /api/v2/pokemon/	1604625707894	1604625708024	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	261	END	1604625707886	1604625708023
+REQUEST	251		GET /api/v2/pokemon/	1604625706897	1604625708074	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	251	END	1604625706887	1604625708074
+USER	Positive: Fetch 10 pokemon characters and validate the schema	263	START	1604625708087	1604625708087
+REQUEST	262		GET /api/v2/pokemon/	1604625707994	1604625708103	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	262	END	1604625707986	1604625708102
+USER	Positive: Fetch 10 pokemon characters and validate the schema	264	START	1604625708186	1604625708186
+REQUEST	263		GET /api/v2/pokemon/	1604625708098	1604625708244	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	263	END	1604625708087	1604625708244
+USER	Positive: Fetch 10 pokemon characters and validate the schema	265	START	1604625708289	1604625708289
+REQUEST	264		GET /api/v2/pokemon/	1604625708197	1604625708301	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	264	END	1604625708186	1604625708301
+USER	Positive: Fetch 10 pokemon characters and validate the schema	266	START	1604625708386	1604625708386
+REQUEST	265		GET /api/v2/pokemon/	1604625708303	1604625708390	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	265	END	1604625708289	1604625708398
+USER	Positive: Fetch 10 pokemon characters and validate the schema	267	START	1604625708486	1604625708486
+REQUEST	266		GET /api/v2/pokemon/	1604625708399	1604625708492	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	266	END	1604625708386	1604625708493
+USER	Positive: Fetch 10 pokemon characters and validate the schema	268	START	1604625708586	1604625708586
+REQUEST	267		GET /api/v2/pokemon/	1604625708500	1604625708603	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	267	END	1604625708486	1604625708603
+USER	Positive: Fetch 10 pokemon characters and validate the schema	269	START	1604625708688	1604625708688
+REQUEST	268		GET /api/v2/pokemon/	1604625708594	1604625708751	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	268	END	1604625708586	1604625708752
+USER	Positive: Fetch 10 pokemon characters and validate the schema	270	START	1604625708785	1604625708785
+REQUEST	269		GET /api/v2/pokemon/	1604625708703	1604625708854	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	269	END	1604625708688	1604625708855
+USER	Positive: Fetch 10 pokemon characters and validate the schema	271	START	1604625708887	1604625708887
+REQUEST	270		GET /api/v2/pokemon/	1604625708796	1604625708922	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	270	END	1604625708785	1604625708922
+USER	Positive: Fetch 10 pokemon characters and validate the schema	272	START	1604625708986	1604625708986
+REQUEST	271		GET /api/v2/pokemon/	1604625708895	1604625708993	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	271	END	1604625708887	1604625708994
+USER	Positive: Fetch 10 pokemon characters and validate the schema	273	START	1604625709087	1604625709087
+REQUEST	272		GET /api/v2/pokemon/	1604625708998	1604625709101	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	272	END	1604625708986	1604625709104
+USER	Positive: Fetch 10 pokemon characters and validate the schema	274	START	1604625709186	1604625709186
+REQUEST	273		GET /api/v2/pokemon/	1604625709097	1604625709196	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	273	END	1604625709087	1604625709196
+USER	Positive: Fetch 10 pokemon characters and validate the schema	275	START	1604625709287	1604625709287
+REQUEST	274		GET /api/v2/pokemon/	1604625709201	1604625709294	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	274	END	1604625709186	1604625709294
+USER	Positive: Fetch 10 pokemon characters and validate the schema	276	START	1604625709386	1604625709386
+REQUEST	275		GET /api/v2/pokemon/	1604625709299	1604625709395	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	275	END	1604625709287	1604625709395
+USER	Positive: Fetch 10 pokemon characters and validate the schema	277	START	1604625709487	1604625709487
+REQUEST	276		GET /api/v2/pokemon/	1604625709397	1604625709497	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	276	END	1604625709386	1604625709498
+REQUEST	277		GET /api/v2/pokemon/	1604625709498	1604625709588	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	277	END	1604625709487	1604625709589
+USER	Positive: Fetch 10 pokemon characters and validate the schema	278	START	1604625709586	1604625709586
+USER	Positive: Fetch 10 pokemon characters and validate the schema	279	START	1604625709688	1604625709688
+REQUEST	278		GET /api/v2/pokemon/	1604625709599	1604625709699	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	278	END	1604625709586	1604625709699
+USER	Positive: Fetch 10 pokemon characters and validate the schema	280	START	1604625709786	1604625709786
+REQUEST	279		GET /api/v2/pokemon/	1604625709698	1604625709801	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	279	END	1604625709688	1604625709802
+USER	Positive: Fetch 10 pokemon characters and validate the schema	281	START	1604625709887	1604625709887
+REQUEST	280		GET /api/v2/pokemon/	1604625709806	1604625709908	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	280	END	1604625709786	1604625709909
+USER	Positive: Fetch 10 pokemon characters and validate the schema	282	START	1604625709988	1604625709988
+REQUEST	281		GET /api/v2/pokemon/	1604625709906	1604625710048	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	281	END	1604625709887	1604625710049
+USER	Positive: Fetch 10 pokemon characters and validate the schema	283	START	1604625710086	1604625710086
+REQUEST	282		GET /api/v2/pokemon/	1604625710002	1604625710107	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	282	END	1604625709988	1604625710108
+USER	Positive: Fetch 10 pokemon characters and validate the schema	284	START	1604625710186	1604625710186
+REQUEST	283		GET /api/v2/pokemon/	1604625710099	1604625710197	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	283	END	1604625710086	1604625710197
+USER	Positive: Fetch 10 pokemon characters and validate the schema	285	START	1604625710286	1604625710286
+REQUEST	284		GET /api/v2/pokemon/	1604625710199	1604625710299	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	284	END	1604625710186	1604625710299
+USER	Positive: Fetch 10 pokemon characters and validate the schema	286	START	1604625710386	1604625710386
+REQUEST	285		GET /api/v2/pokemon/	1604625710296	1604625710406	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	285	END	1604625710286	1604625710407
+USER	Positive: Fetch 10 pokemon characters and validate the schema	287	START	1604625710488	1604625710488
+REQUEST	286		GET /api/v2/pokemon/	1604625710398	1604625710524	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	286	END	1604625710386	1604625710525
+USER	Positive: Fetch 10 pokemon characters and validate the schema	288	START	1604625710587	1604625710587
+REQUEST	287		GET /api/v2/pokemon/	1604625710500	1604625710601	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	287	END	1604625710488	1604625710602
+USER	Positive: Fetch 10 pokemon characters and validate the schema	289	START	1604625710686	1604625710686
+REQUEST	288		GET /api/v2/pokemon/	1604625710596	1604625710692	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	288	END	1604625710587	1604625710692
+REQUEST	289		GET /api/v2/pokemon/	1604625710694	1604625710790	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	290	START	1604625710788	1604625710788
+USER	Positive: Fetch 10 pokemon characters and validate the schema	289	END	1604625710686	1604625710790
+USER	Positive: Fetch 10 pokemon characters and validate the schema	291	START	1604625710888	1604625710888
+REQUEST	290		GET /api/v2/pokemon/	1604625710798	1604625710900	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	290	END	1604625710788	1604625710900
+USER	Positive: Fetch 10 pokemon characters and validate the schema	292	START	1604625710987	1604625710987
+REQUEST	291		GET /api/v2/pokemon/	1604625710896	1604625710994	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	291	END	1604625710888	1604625710994
+USER	Positive: Fetch 10 pokemon characters and validate the schema	293	START	1604625711087	1604625711087
+REQUEST	292		GET /api/v2/pokemon/	1604625710999	1604625711107	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	292	END	1604625710987	1604625711110
+USER	Positive: Fetch 10 pokemon characters and validate the schema	294	START	1604625711187	1604625711187
+REQUEST	293		GET /api/v2/pokemon/	1604625711106	1604625711205	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	293	END	1604625711087	1604625711205
+USER	Positive: Fetch 10 pokemon characters and validate the schema	295	START	1604625711286	1604625711286
+REQUEST	294		GET /api/v2/pokemon/	1604625711201	1604625711307	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	294	END	1604625711187	1604625711308
+USER	Positive: Fetch 10 pokemon characters and validate the schema	296	START	1604625711387	1604625711387
+REQUEST	295		GET /api/v2/pokemon/	1604625711305	1604625711404	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	295	END	1604625711286	1604625711410
+USER	Positive: Fetch 10 pokemon characters and validate the schema	297	START	1604625711486	1604625711486
+REQUEST	296		GET /api/v2/pokemon/	1604625711403	1604625711495	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	296	END	1604625711387	1604625711497
+USER	Positive: Fetch 10 pokemon characters and validate the schema	298	START	1604625711586	1604625711586
+REQUEST	297		GET /api/v2/pokemon/	1604625711499	1604625711600	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	297	END	1604625711486	1604625711601
+USER	Positive: Fetch 10 pokemon characters and validate the schema	299	START	1604625711686	1604625711686
+REQUEST	298		GET /api/v2/pokemon/	1604625711604	1604625711693	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	298	END	1604625711586	1604625711696
+USER	Positive: Fetch 10 pokemon characters and validate the schema	300	START	1604625711786	1604625711786
+REQUEST	299		GET /api/v2/pokemon/	1604625711705	1604625711813	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	299	END	1604625711686	1604625711813
+USER	Positive: Fetch 10 pokemon characters and validate the schema	301	START	1604625711886	1604625711886
+REQUEST	300		GET /api/v2/pokemon/	1604625711797	1604625711892	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	300	END	1604625711786	1604625711893
+USER	Positive: Fetch 10 pokemon characters and validate the schema	302	START	1604625711988	1604625711988
+REQUEST	301		GET /api/v2/pokemon/	1604625711908	1604625712012	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	301	END	1604625711886	1604625712014
+USER	Positive: Fetch 10 pokemon characters and validate the schema	303	START	1604625712087	1604625712087
+REQUEST	302		GET /api/v2/pokemon/	1604625712011	1604625712111	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	302	END	1604625711988	1604625712111
+USER	Positive: Fetch 10 pokemon characters and validate the schema	304	START	1604625712187	1604625712187
+REQUEST	303		GET /api/v2/pokemon/	1604625712104	1604625712199	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	303	END	1604625712087	1604625712198
+USER	Positive: Fetch 10 pokemon characters and validate the schema	305	START	1604625712288	1604625712288
+REQUEST	304		GET /api/v2/pokemon/	1604625712203	1604625712306	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	304	END	1604625712187	1604625712306
+USER	Positive: Fetch 10 pokemon characters and validate the schema	306	START	1604625712386	1604625712386
+REQUEST	305		GET /api/v2/pokemon/	1604625712296	1604625712392	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	305	END	1604625712288	1604625712392
+USER	Positive: Fetch 10 pokemon characters and validate the schema	307	START	1604625712488	1604625712488
+REQUEST	306		GET /api/v2/pokemon/	1604625712399	1604625712494	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	306	END	1604625712386	1604625712494
+USER	Positive: Fetch 10 pokemon characters and validate the schema	308	START	1604625712587	1604625712587
+REQUEST	307		GET /api/v2/pokemon/	1604625712497	1604625712601	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	307	END	1604625712488	1604625712601
+USER	Positive: Fetch 10 pokemon characters and validate the schema	309	START	1604625712687	1604625712687
+REQUEST	308		GET /api/v2/pokemon/	1604625712603	1604625712739	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	308	END	1604625712587	1604625712740
+USER	Positive: Fetch 10 pokemon characters and validate the schema	310	START	1604625712788	1604625712788
+REQUEST	309		GET /api/v2/pokemon/	1604625712700	1604625712802	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	309	END	1604625712687	1604625712802
+USER	Positive: Fetch 10 pokemon characters and validate the schema	311	START	1604625712888	1604625712888
+REQUEST	310		GET /api/v2/pokemon/	1604625712796	1604625712893	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	310	END	1604625712788	1604625712893
+USER	Positive: Fetch 10 pokemon characters and validate the schema	312	START	1604625712986	1604625712986
+REQUEST	311		GET /api/v2/pokemon/	1604625712900	1604625713007	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	311	END	1604625712888	1604625713007
+USER	Positive: Fetch 10 pokemon characters and validate the schema	313	START	1604625713087	1604625713087
+REQUEST	312		GET /api/v2/pokemon/	1604625712998	1604625713097	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	312	END	1604625712986	1604625713099
+USER	Positive: Fetch 10 pokemon characters and validate the schema	314	START	1604625713186	1604625713186
+REQUEST	313		GET /api/v2/pokemon/	1604625713096	1604625713194	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	313	END	1604625713087	1604625713194
+USER	Positive: Fetch 10 pokemon characters and validate the schema	315	START	1604625713289	1604625713289
+REQUEST	314		GET /api/v2/pokemon/	1604625713196	1604625713294	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	314	END	1604625713186	1604625713296
+USER	Positive: Fetch 10 pokemon characters and validate the schema	316	START	1604625713386	1604625713386
+REQUEST	315		GET /api/v2/pokemon/	1604625713300	1604625713388	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	315	END	1604625713289	1604625713389
+USER	Positive: Fetch 10 pokemon characters and validate the schema	317	START	1604625713486	1604625713486
+REQUEST	316		GET /api/v2/pokemon/	1604625713398	1604625713490	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	316	END	1604625713386	1604625713490
+USER	Positive: Fetch 10 pokemon characters and validate the schema	318	START	1604625713586	1604625713586
+REQUEST	317		GET /api/v2/pokemon/	1604625713500	1604625713598	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	317	END	1604625713486	1604625713597
+USER	Positive: Fetch 10 pokemon characters and validate the schema	319	START	1604625713686	1604625713686
+REQUEST	318		GET /api/v2/pokemon/	1604625713599	1604625713693	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	318	END	1604625713586	1604625713693
+USER	Positive: Fetch 10 pokemon characters and validate the schema	320	START	1604625713786	1604625713786
+REQUEST	319		GET /api/v2/pokemon/	1604625713694	1604625713805	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	319	END	1604625713686	1604625713805
+USER	Positive: Fetch 10 pokemon characters and validate the schema	321	START	1604625713888	1604625713888
+REQUEST	320		GET /api/v2/pokemon/	1604625713797	1604625713897	OK	 
+USER	Positive: Fetch 10 pokemon characters and validate the schema	320	END	1604625713786	1604625713898
+USER	
